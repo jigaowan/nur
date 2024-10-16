@@ -15,4 +15,5 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   snell-server = pkgs.callPackage ./pkgs/snell-server { };
+  trojan-go = pkgs.callPackage ./pkgs/trojan-go { };
 }
