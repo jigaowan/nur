@@ -8,6 +8,7 @@ buildGoModule rec {
     rev = "v${version}";
     hash = "sha256-ZzIEKyLhHwYEWBfi6fHlCbkEImetEaRewbsHQEduB5Y=";
   };
+  tags = "full";
   vendorHash = "sha256-c6H/8/dmCWasFKVR15U/kty4AzQAqmiL/VLKrPtH+s4=";
   doCheck = false;
   meta = with lib; {
