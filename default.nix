@@ -16,4 +16,7 @@
 
   snell-server = pkgs.callPackage ./pkgs/snell-server { };
   trojan-go = pkgs.callPackage ./pkgs/trojan-go { };
+  awakened-poe-trade = pkgs.callPackage ./pkgs/awakened-poe-trade { };
+  exiled-exchange-2 = pkgs.callPackage ./pkgs/exiled-exchange-2 { };
+
 }
