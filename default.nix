@@ -19,5 +19,6 @@
   awakened-poe-trade = pkgs.callPackage ./pkgs/awakened-poe-trade { };
   exiled-exchange-2 = pkgs.callPackage ./pkgs/exiled-exchange-2 { };
   protonhax = pkgs.callPackage ./pkgs/protonhax { };
+  misskey = pkgs.callPackage ./pkgs/misskey { };
 
 }
