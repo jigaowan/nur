@@ -26,7 +26,6 @@ stdenv.mkDerivation rec {
     install -Dm755 snell-server $out/bin/snell-server
     runHook postInstall
   '';
-
   preFixup = let
     libPath = lib.makeLibraryPath [
       glibc
