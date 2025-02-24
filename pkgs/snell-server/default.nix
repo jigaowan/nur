@@ -1,4 +1,4 @@
-{ lib, stdenv, unzip, fetchurl, autoPatchelfHook, glibc, ... }:
+{ lib, stdenv, unzip, fetchurl, upx, glibc, ... }:
 stdenv.mkDerivation rec {
   pname = "snell-server";
   version = "4.1.1";
@@ -14,13 +14,29 @@ stdenv.mkDerivation rec {
     }
   else
     throw "Unsupported architecture: ${stdenv.hostPlatform.system}";
-  nativeBuildInputs = [ unzip autoPatchelfHook ];
+  nativeBuildInputs = [ unzip upx ];
   buildInputs = [ glibc ];
   unpackPhase = ''
     unzip $src
   '';
   installPhase = ''
+    runHook preInstall
+    upx -d snell-server -o snell-server.tmp
+    mv snell-server.tmp snell-server
     install -Dm755 snell-server $out/bin/snell-server
+    runHook postInstall
+  '';
+
+  preFixup = let
+    libPath = lib.makeLibraryPath [
+      glibc
+      stdenv.cc.cc.lib
+    ];
+  in ''
+    patchelf \
+      --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
+      --set-rpath "${libPath}" \
+      $out/bin/snell-server
   '';
   meta = with lib; {
     homepage = "https://nssurge.com";
