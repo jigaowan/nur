@@ -18,13 +18,13 @@
 stdenv.mkDerivation (finalAttrs: {
   pname = "misskey";
 
-  version = "2025.2.0";
+  version = "2025.3.0";
 
   src = fetchFromGitHub {
     owner = "misskey-dev";
     repo = finalAttrs.pname;
     rev = finalAttrs.version;
-    hash = "sha256-S6gBfGMBjom8nrqd5GR5Xt8tGpZ2zZDyyTBraS2dRpE=";
+    hash = "sha256-/uM4ufaUnS1NSoN6xEcFBJp4LNOMCoXqootV0XwghRI=";
     fetchSubmodules = true;
   };
 
@@ -38,7 +38,7 @@ stdenv.mkDerivation (finalAttrs: {
   # https://nixos.org/manual/nixpkgs/unstable/#javascript-pnpm
   pnpmDeps = pnpm_9.fetchDeps {
     inherit (finalAttrs) pname version src;
-    hash = "sha256-BU+K4Boqa56hLfwCJ3I7YSlIrXYr8PJXdYK+8sAurxc=";
+    hash = "sha256-aPZ7sU/PbZZQFdogpUSw9Ise4eXdkNbZ/wKBrXpVknk=";
   };
 
   buildPhase = ''
