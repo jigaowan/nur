@@ -11,14 +11,13 @@ in {
   options = {
     services.snell-server = {
       enable = lib.mkEnableOption "snell-server";
-      # package = (pkgs.callPackage ./snell-server.nix { });
       package = lib.mkPackageOption pkgs "snell-server" { };
       address = lib.mkOption {
         type = lib.types.str;
         default = "::0";
       };
       port = lib.mkOption {
-        type = lib.types.number;
+        type = lib.types.port;
         default = 7800;
       };
       psk = lib.mkOption {
