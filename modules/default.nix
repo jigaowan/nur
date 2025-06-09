@@ -1,8 +1,17 @@
+{ pkgs, ... }:
+let
+  nur-packages = import ../default.nix { inherit pkgs; };
+  packages = builtins.removeAttrs nur-packages [ "lib" "modules" "overlays" ];
+in
 {
-  # Add your NixOS modules here
-  #
-  hysteria = ./hysteria;
-  snell-server = ./snell-server;
-  sing-box = ./sing-box;
-  trojan-go = ./trojan-go;
+  disabledModules = [ "services/networking/sing-box.nix" ];
+  imports = [
+    ./hysteria
+    ./snell-server
+    ./sing-box
+    ./trojan-go
+  ];
+  nixpkgs.overlays = [
+    (final: prev: packages)
+  ];
 }
