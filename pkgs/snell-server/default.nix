@@ -1,16 +1,16 @@
 { lib, stdenv, unzip, fetchurl, upx, glibc, ... }:
 stdenv.mkDerivation rec {
   pname = "snell-server";
-  version = "4.1.1";
+  version = "5.0.0";
   src = if stdenv.hostPlatform.system == "x86_64-linux" then
     fetchurl {
       url = "https://dl.nssurge.com/snell/snell-server-v${version}-linux-amd64.zip";
-      sha256 = "sha256-zCJxt5x1BoiLNOZR6HQbOqf8fV9gqmXvi7CW8zE6GTs=";
+      sha256 = "sha256-iTp75PxeaVuXrLgK+aSpm5mGf4y0dnhHJaP4n6I5QOE=";
     }
   else if stdenv.hostPlatform.system == "aarch64-linux" then
     fetchurl {
       url = "https://dl.nssurge.com/snell/snell-server-v${version}-linux-aarch64.zip";
-      sha256 = "sha256-ONTNwD3Ns2CK+FlN+D4XlSZRZ/r8XYAvgVFIkIkC11g=";
+      sha256 = "sha256-dnCQMqjRBD+m8B4fu7cnFI13U0qDKT1zVkpWksOWcpI=";
     }
   else
     throw "Unsupported architecture: ${stdenv.hostPlatform.system}";
