@@ -28,7 +28,7 @@ in {
       wants = [ "network-online.target" ];
       after = [ "network-online.target" "systemd-resolved.service" ];
       serviceConfig = {
-        ExecStart = "${cfg.package}/bin/server -l ${cfg.host}:${cfg.port} -p ${cfg.password}";
+        ExecStart = "${cfg.package}/bin/server -l ${cfg.host}:${builtins.toString(cfg.port)} -p ${cfg.password}";
         Restart = "always";
         RestartSec = 10;
       };
