@@ -7,6 +7,7 @@ in
   disabledModules = [ "services/networking/sing-box.nix" ];
   imports = [
     ./hysteria
+    ./anytls-go
     ./snell-server
     ./sing-box
     ./trojan-go

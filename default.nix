@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   snell-server = pkgs.callPackage ./pkgs/snell-server { };
+  anytls-go = pkgs.callPackage ./pkgs/anytls-go { };
   trojan-go = pkgs.callPackage ./pkgs/trojan-go { };
   awakened-poe-trade = pkgs.callPackage ./pkgs/awakened-poe-trade { };
   exiled-exchange-2 = pkgs.callPackage ./pkgs/exiled-exchange-2 { };
