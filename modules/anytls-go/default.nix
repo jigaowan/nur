@@ -22,7 +22,7 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    networking.firewall.allowedTCPPorts = [cfg.port];
+    networking.firewall.allowedTCPPorts = [ cfg.port ];
     systemd.services.anytls-go = {
       wantedBy = [ "multi-user.target" ];
       wants = [ "network-online.target" ];
