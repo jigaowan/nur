@@ -6,10 +6,7 @@ let
     listen=${cfg.address}:${builtins.toString(cfg.port)}
     psk=${cfg.psk}
     ipv6=${if cfg.ipv6 then "true" else "false"}
-    ${if cfg.obfs then ''
-      obfs=http
-      obfs-host=${cfg.obfs-host}
-    '' else ""}
+    ${if cfg.obfs then "obfs=http" else ""}
   '';
 in {
   options = {
@@ -35,10 +32,6 @@ in {
       obfs = lib.mkOption {
         type = lib.types.bool;
         default = false;
-      };
-      obfs-host = lib.mkOption {
-        type = lib.types.str;
-        default = "";
       };
     };
   };
