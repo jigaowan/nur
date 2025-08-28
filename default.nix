@@ -6,7 +6,9 @@
 # commands such as:
 #     nix-build -A mypackage
 
-{ pkgs ? import <nixpkgs> { } }:
+{
+  pkgs ? import <nixpkgs> { },
+}:
 
 {
   # The `lib`, `modules`, and `overlays` names are special
@@ -19,6 +21,6 @@
   trojan-go = pkgs.callPackage ./pkgs/trojan-go { };
   awakened-poe-trade = pkgs.callPackage ./pkgs/awakened-poe-trade { };
   exiled-exchange-2 = pkgs.callPackage ./pkgs/exiled-exchange-2 { };
+  path-of-building = pkgs.callPackage ./pkgs/path-of-building { };
   misskey = pkgs.callPackage ./pkgs/misskey { };
-
 }
