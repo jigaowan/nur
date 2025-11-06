@@ -23,7 +23,7 @@ appimageTools.wrapType2 rec {
     install -m 444 -D ${appimageContents}/usr/share/icons/hicolor/512x512/apps/awakened-poe-trade.png \
       $out/share/icons/hicolor/512x512/apps/awakened-poe-trade.png
     substituteInPlace $out/share/applications/awakened-poe-trade.desktop \
-      --replace-fail 'Exec=AppRun --sandbox %U' 'Exec=${pname} --sandbox --listen=localhost:9128 --no-overlay %U'
+      --replace-fail 'Exec=AppRun --sandbox %U' 'Exec=${pname} --sandbox --listen=localhost:9128 --ozone-platform=x11 --no-overlay %U'
   '';
 
   meta = with lib; {
