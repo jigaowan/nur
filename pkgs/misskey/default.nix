@@ -27,6 +27,20 @@ stdenv.mkDerivation (finalAttrs: {
     hash = "sha256-7S6m97wHFeITABLcnQiPVGLg6d1xcPCHCp7/7d/w48E=";
     fetchSubmodules = true;
   };
+  # Misskey converts its YAML config to JSON at runtime, which doesn't work
+
+  # because it tries to write it to the Nix store. As a workaround, hardcode
+  # this to a path which the service can write to until a better solution is
+  # supported, upstream.
+  # https://github.com/misskey-dev/misskey/issues/17075
+  postPatch = ''
+    substituteInPlace packages/backend/src/config.ts \
+      --replace-fail \
+        "resolve(_dirname, '../../../built/.config.json')" \
+        "resolve('/run/misskey/default.json')"
+    substituteInPlace {.,packages/backend}/package.json \
+      --replace-fail "pnpm compile-config && " ""
+  '';
 
   nativeBuildInputs = [
     nodejs
