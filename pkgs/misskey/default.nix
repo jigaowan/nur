@@ -18,13 +18,13 @@
 stdenv.mkDerivation (finalAttrs: {
   pname = "misskey";
 
-  version = "2025.6.3";
+  version = "2025.12.2";
 
   src = fetchFromGitHub {
     owner = "misskey-dev";
     repo = finalAttrs.pname;
     rev = finalAttrs.version;
-    hash = "sha256-6UZcIZlfcYcQgjR/jrNhsoLNQGml2tjK3LYLI0fdgMU=";
+    hash = "sha256-7S6m97wHFeITABLcnQiPVGLg6d1xcPCHCp7/7d/w48E=";
     fetchSubmodules = true;
   };
 
@@ -33,13 +33,14 @@ stdenv.mkDerivation (finalAttrs: {
     pnpm_9.configHook
     makeWrapper
     python3
-  ] ++ lib.optionals stdenv.isDarwin [ xcbuild.xcrun ];
+  ]
+  ++ lib.optionals stdenv.isDarwin [ xcbuild.xcrun ];
 
   # https://nixos.org/manual/nixpkgs/unstable/#javascript-pnpm
   pnpmDeps = pnpm_9.fetchDeps {
     inherit (finalAttrs) pname version src;
     fetcherVersion = 1;
-    hash = "sha256-T8LwpEjeWNmkIo3Dn1BCFHBsTzA/Dt6/pk/NMtvT0N4=";
+    hash = "sha256-i2wh7X3UjiAYH5me2Vs8LxSrsbmwwVhSTkaHhWwemBI=";
   };
 
   buildPhase = ''
