@@ -1,6 +1,6 @@
 {
     "Exiled-Exchange-2": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "Exiled-Exchange-2",
@@ -14,23 +14,8 @@
         },
         "version": "0.13.10"
     },
-    "PathOfBuilding": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "PathOfBuilding",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-q/hVgSstTo0aY+Xx2WJk39FZrxURZnaaEg+XQoQfHXw=",
-            "type": "url",
-            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.60.0/PathOfBuildingCommunity-Portable.zip"
-        },
-        "version": "v2.60.0"
-    },
     "anytls-go": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "anytls-go",
@@ -51,7 +36,7 @@
         "version": "v0.0.12"
     },
     "awakened-poe-trade": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "awakened-poe-trade",
@@ -64,5 +49,20 @@
             "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.27.106/Awakened-PoE-Trade-3.27.106.AppImage"
         },
         "version": "3.27.106"
+    },
+    "path-of-building": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "path-of-building",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-q/hVgSstTo0aY+Xx2WJk39FZrxURZnaaEg+XQoQfHXw=",
+            "type": "url",
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.60.0/PathOfBuildingCommunity-Portable.zip"
+        },
+        "version": "v2.60.0"
     }
 }
