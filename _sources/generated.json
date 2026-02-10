@@ -1,0 +1,68 @@
+{
+    "Exiled-Exchange-2": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "Exiled-Exchange-2",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-mQNUJptaObbEMtBLCgJn7A6nmgVpl4o0JWTg6FH20U0=",
+            "type": "url",
+            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.13.10/Exiled-Exchange-2-0.13.10.AppImage"
+        },
+        "version": "0.13.10"
+    },
+    "PathOfBuilding": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "PathOfBuilding",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-q/hVgSstTo0aY+Xx2WJk39FZrxURZnaaEg+XQoQfHXw=",
+            "type": "url",
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.60.0/PathOfBuildingCommunity-Portable.zip"
+        },
+        "version": "v2.60.0"
+    },
+    "anytls-go": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "anytls-go",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "anytls",
+            "repo": "anytls-go",
+            "rev": "v0.0.12",
+            "sha256": "sha256-KQNRnDpOb9LxoOWzKgE2r7ipe4qHLrKZcE7rGLTCScY=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.0.12"
+    },
+    "awakened-poe-trade": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "awakened-poe-trade",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-8L5Szn0KYfUMaTe+yyhJV1YZspmJCSlXSHXLPoiRhjE=",
+            "type": "url",
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.27.106/Awakened-PoE-Trade-3.27.106.AppImage"
+        },
+        "version": "3.27.106"
+    }
+}

@@ -9,18 +9,29 @@
 {
   pkgs ? import <nixpkgs> { },
 }:
+let
+  allPkgs = pkgs // myPkgs;
+  callPackage =
+    path: overrides:
+    let
+      f = import path;
+    in
+    f ((builtins.intersectAttrs (builtins.functionArgs f) allPkgs) // overrides);
+  myPkgs = rec {
+    # The `lib`, `modules`, and `overlay` names are special
+    lib = pkgs.lib // import ./lib { inherit pkgs; }; # functions
+    modules = import ./modules; # NixOS modules
+    overlays = import ./overlays; # nixpkgs overlays
 
-{
-  # The `lib`, `modules`, and `overlays` names are special
-  lib = import ./lib { inherit pkgs; }; # functions
-  modules = import ./modules; # NixOS modules
-  overlays = import ./overlays; # nixpkgs overlays
+    sources = callPackage ./_sources/generated.nix { };
 
-  snell-server = pkgs.callPackage ./pkgs/snell-server { };
-  anytls-go = pkgs.callPackage ./pkgs/anytls-go { };
-  trojan-go = pkgs.callPackage ./pkgs/trojan-go { };
-  awakened-poe-trade = pkgs.callPackage ./pkgs/awakened-poe-trade { };
-  exiled-exchange-2 = pkgs.callPackage ./pkgs/exiled-exchange-2 { };
-  path-of-building = pkgs.callPackage ./pkgs/path-of-building { };
-  misskey = pkgs.callPackage ./pkgs/misskey { };
-}
+    snell-server = callPackage ./pkgs/snell-server { };
+    anytls-go = callPackage ./pkgs/anytls-go { };
+    trojan-go = callPackage ./pkgs/trojan-go { };
+    awakened-poe-trade = callPackage ./pkgs/awakened-poe-trade { };
+    exiled-exchange-2 = callPackage ./pkgs/exiled-exchange-2 { };
+    path-of-building = callPackage ./pkgs/path-of-building { };
+    misskey = callPackage ./pkgs/misskey { };
+  };
+in
+myPkgs

@@ -1,16 +1,11 @@
 {
   lib,
   appimageTools,
-  fetchurl,
+  sources,
   ...
 }:
 let
-  pname = "awakened-poe-trade";
-  version = "3.27.105";
-  src = fetchurl {
-    url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v${version}/Awakened-PoE-Trade-${version}.AppImage";
-    hash = "sha256-XEnxDo8Njt/r7tmRxbKMNKqG/YUlc59TJY/7mjiOyXE=";
-  };
+  inherit (sources.awakened-poe-trade) pname version src;
   appimageContents = appimageTools.extract {
     inherit pname version src;
   };

@@ -2,16 +2,11 @@
   lib,
   stdenv,
   unzip,
-  fetchurl,
+  sources,
   ...
 }:
 stdenv.mkDerivation rec {
-  pname = "path-of-building";
-  version = "2.56.0";
-  src = fetchurl {
-    url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v${version}/PathOfBuildingCommunity-Portable.zip";
-    sha256 = "sha256-TEr5cLlP5px1PS5W3KtLnVFHhrH/OkhTFYjC4DvqFJg=";
-  };
+  inherit (sources.PathOfBuilding) pname version src;
   nativeBuildInputs = [
     unzip
   ];

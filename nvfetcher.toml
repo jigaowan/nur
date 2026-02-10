@@ -1,0 +1,17 @@
+[anytls-go]
+src.github = "anytls/anytls-go"
+fetch.github = "anytls/anytls-go"
+
+[awakened-poe-trade]
+src.github = "SnosMe/awakened-poe-trade"
+src.prefix = "v"
+fetch.url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v$ver/Awakened-PoE-Trade-$ver.AppImage"
+
+[Exiled-Exchange-2]
+src.github = "Kvan7/Exiled-Exchange-2"
+src.prefix = "v"
+fetch.url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v$ver/Exiled-Exchange-2-$ver.AppImage"
+
+[path-of-building]
+src.github = "PathOfBuildingCommunity/PathOfBuilding"
+fetch.url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/$ver/PathOfBuildingCommunity-Portable.zip"

@@ -1,4 +1,4 @@
-{ lib, stdenv, unzip, fetchurl, upx, glibc, ... }:
+{ lib, stdenv, unzip, upx, glibc, fetchurl,... }:
 stdenv.mkDerivation rec {
   pname = "snell-server";
   version = "5.0.0";
