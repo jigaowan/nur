@@ -6,7 +6,7 @@
   ...
 }:
 stdenv.mkDerivation rec {
-  inherit (sources.PathOfBuilding) pname version src;
+  inherit (sources.path-of-building) pname version src;
   nativeBuildInputs = [
     unzip
   ];
