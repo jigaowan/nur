@@ -27,10 +27,10 @@
   };
   awakened-poe-trade = {
     pname = "awakened-poe-trade";
-    version = "3.28.101";
+    version = "3.28.102";
     src = fetchurl {
-      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.101/Awakened-PoE-Trade-3.28.101.AppImage";
-      sha256 = "sha256-Pm6vdDTxjd8pCegnvVRkbN1LIarC2LgJ91dpWPE38q4=";
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.102/Awakened-PoE-Trade-3.28.102.AppImage";
+      sha256 = "sha256-tej1rjkrpAXmQ8ZzvlAuxHkMGAuRpPqg1TlBoWhorIE=";
     };
   };
   path-of-building = {

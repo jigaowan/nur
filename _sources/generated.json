@@ -44,11 +44,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Pm6vdDTxjd8pCegnvVRkbN1LIarC2LgJ91dpWPE38q4=",
+            "sha256": "sha256-tej1rjkrpAXmQ8ZzvlAuxHkMGAuRpPqg1TlBoWhorIE=",
             "type": "url",
-            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.101/Awakened-PoE-Trade-3.28.101.AppImage"
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.102/Awakened-PoE-Trade-3.28.102.AppImage"
         },
-        "version": "3.28.101"
+        "version": "3.28.102"
     },
     "path-of-building": {
         "cargoLock": null,
