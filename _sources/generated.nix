@@ -35,10 +35,10 @@
   };
   path-of-building = {
     pname = "path-of-building";
-    version = "v2.60.0";
+    version = "v2.62.0";
     src = fetchurl {
-      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.60.0/PathOfBuildingCommunity-Portable.zip";
-      sha256 = "sha256-q/hVgSstTo0aY+Xx2WJk39FZrxURZnaaEg+XQoQfHXw=";
+      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.62.0/PathOfBuildingCommunity-Portable.zip";
+      sha256 = "sha256-I3HM7Pu/cdWz5L+7BtokhDEj9sN5bM1SE4Axg0+QUbk=";
     };
   };
 }
