@@ -16,6 +16,7 @@ in
     ./sing-box
     ./trojan-go
     ./misskey-hub
+    ./mcp-nixos
   ];
   nixpkgs.overlays = [
     (final: prev: packages)
