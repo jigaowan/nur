@@ -59,10 +59,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-RkWzeXvevAWFayr55uG9e30H3wQ1tZRS/0YzgX6zIbY=",
+            "sha256": "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=",
             "type": "url",
-            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.64.0/PathOfBuildingCommunity-Portable.zip"
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.65.0/PathOfBuildingCommunity-Portable.zip"
         },
-        "version": "v2.64.0"
+        "version": "v2.65.0"
     }
 }
