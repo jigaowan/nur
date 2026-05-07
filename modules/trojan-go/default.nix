@@ -89,6 +89,9 @@ in {
       wants = [ "network-online.target" ];
       after = [ "network-online.target" "systemd-resolved.service" ];
       serviceConfig = {
+        ExecStartPre = [
+          "${pkgs.bash}/bin/bash -c 'until ${pkgs.getent}/bin/getent hosts news.ycombinator.com >/dev/null; do sleep 1; done'"
+        ];
         ExecStart = "${cfg.package}/bin/trojan-go -config ${configFile}";
         Restart = "always";
         RestartSec = 10;
