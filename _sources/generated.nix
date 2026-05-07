@@ -8,10 +8,10 @@
 {
   Exiled-Exchange-2 = {
     pname = "Exiled-Exchange-2";
-    version = "0.13.10";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.13.10/Exiled-Exchange-2-0.13.10.AppImage";
-      sha256 = "sha256-mQNUJptaObbEMtBLCgJn7A6nmgVpl4o0JWTg6FH20U0=";
+      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.14.0/Exiled-Exchange-2-0.14.0.AppImage";
+      sha256 = "sha256-weW+urAFexy3jCih3hmHmBR3PkhLLFxG7Bq3e+EAI2U=";
     };
   };
   anytls-go = {
@@ -35,10 +35,10 @@
   };
   path-of-building = {
     pname = "path-of-building";
-    version = "v2.63.0";
+    version = "v2.65.0";
     src = fetchurl {
-      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.63.0/PathOfBuildingCommunity-Portable.zip";
-      sha256 = "sha256-BH4Mx1nTVvjhAnuOVA02QACGTB0daqxFYlVO2YtVR1A=";
+      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.65.0/PathOfBuildingCommunity-Portable.zip";
+      sha256 = "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=";
     };
   };
 }

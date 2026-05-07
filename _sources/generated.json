@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-mQNUJptaObbEMtBLCgJn7A6nmgVpl4o0JWTg6FH20U0=",
+            "sha256": "sha256-weW+urAFexy3jCih3hmHmBR3PkhLLFxG7Bq3e+EAI2U=",
             "type": "url",
-            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.13.10/Exiled-Exchange-2-0.13.10.AppImage"
+            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.14.0/Exiled-Exchange-2-0.14.0.AppImage"
         },
-        "version": "0.13.10"
+        "version": "0.14.0"
     },
     "anytls-go": {
         "cargoLock": null,
@@ -59,10 +59,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-BH4Mx1nTVvjhAnuOVA02QACGTB0daqxFYlVO2YtVR1A=",
+            "sha256": "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=",
             "type": "url",
-            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.63.0/PathOfBuildingCommunity-Portable.zip"
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.65.0/PathOfBuildingCommunity-Portable.zip"
         },
-        "version": "v2.63.0"
+        "version": "v2.65.0"
     }
 }
