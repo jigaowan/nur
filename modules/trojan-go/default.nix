@@ -57,7 +57,7 @@ in {
       };
       remote_addr = lib.mkOption {
         type = lib.types.str;
-        default = "news.ycombinator.com";
+        default = "209.216.230.207";
       };
       remote_port = lib.mkOption {
         type = lib.types.number;
