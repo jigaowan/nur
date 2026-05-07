@@ -90,7 +90,7 @@ in {
       after = [ "network-online.target" "systemd-resolved.service" ];
       serviceConfig = {
         ExecStartPre = [
-          "${pkgs.bash}/bin/bash -c 'until ${pkgs.getent}/bin/getent hosts ${remote_addr} >/dev/null; do sleep 1; done'"
+          "${pkgs.bash}/bin/bash -c 'until ${pkgs.getent}/bin/getent hosts ${cfg.remote_addr} >/dev/null; do sleep 1; done'"
         ];
         ExecStart = "${cfg.package}/bin/trojan-go -config ${configFile}";
         Restart = "always";
