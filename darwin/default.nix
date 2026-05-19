@@ -10,6 +10,7 @@ in
 {
   imports = [
     ./mcp-nixos
+    ./syncthing
   ];
   nixpkgs.overlays = [
     (final: prev: packages)
