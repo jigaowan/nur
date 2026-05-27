@@ -15,3 +15,8 @@ fetch.url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v$ver/
 [path-of-building]
 src.github = "PathOfBuildingCommunity/PathOfBuilding"
 fetch.url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/$ver/PathOfBuildingCommunity-Portable.zip"
+
+[duckstation]
+src.github_tag = "stenzek/duckstation"
+src.include_regex = "^v[0-9].*"
+fetch.url = "https://github.com/stenzek/duckstation/releases/download/$ver/DuckStation-x64.AppImage"

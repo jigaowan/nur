@@ -31,6 +31,7 @@ let
     awakened-poe-trade = callPackage ./pkgs/awakened-poe-trade { };
     exiled-exchange-2 = callPackage ./pkgs/exiled-exchange-2 { };
     path-of-building = callPackage ./pkgs/path-of-building { };
+    duckstation = callPackage ./pkgs/duckstation { };
     misskey = callPackage ./pkgs/misskey { };
   };
 in
