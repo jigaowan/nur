@@ -50,6 +50,21 @@
         },
         "version": "3.28.103"
     },
+    "duckstation": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "duckstation",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-z2NLLiRcU7Chbd474AuWSVtDXIENFeH0IiZqTB1l1yo=",
+            "type": "url",
+            "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-11108/DuckStation-x64.AppImage"
+        },
+        "version": "v0.1-11108"
+    },
     "path-of-building": {
         "cargoLock": null,
         "date": null,
