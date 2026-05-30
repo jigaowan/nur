@@ -8,10 +8,10 @@
 {
   Exiled-Exchange-2 = {
     pname = "Exiled-Exchange-2";
-    version = "0.15.1";
+    version = "0.15.2";
     src = fetchurl {
-      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.1/Exiled-Exchange-2-0.15.1.AppImage";
-      sha256 = "sha256-R3K6uCKB4MieBOtTesqOfYSC5RZrlbGmS4cq6VC7ZRk=";
+      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.2/Exiled-Exchange-2-0.15.2.AppImage";
+      sha256 = "sha256-LNXiVZvPIrPbrmpiS4g+iBGi0+Jn2lott8fsy+uJnfw=";
     };
   };
   anytls-go = {
@@ -35,10 +35,10 @@
   };
   duckstation = {
     pname = "duckstation";
-    version = "v0.1-11108";
+    version = "v0.1-11295";
     src = fetchurl {
-      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11108/DuckStation-x64.AppImage";
-      sha256 = "sha256-z2NLLiRcU7Chbd474AuWSVtDXIENFeH0IiZqTB1l1yo=";
+      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11295/DuckStation-x64.AppImage";
+      sha256 = "sha256-s1/Ha7PKzlJ4r/GZNZPu087yHJYMM6XZWu5SURJuh+E=";
     };
   };
   path-of-building = {
