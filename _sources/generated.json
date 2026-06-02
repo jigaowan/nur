@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-LNXiVZvPIrPbrmpiS4g+iBGi0+Jn2lott8fsy+uJnfw=",
+            "sha256": "sha256-UamsF0Iq7FECsscX2xSoOP+yaP2KVb0FE7MLikBekF8=",
             "type": "url",
-            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.2/Exiled-Exchange-2-0.15.2.AppImage"
+            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.3/Exiled-Exchange-2-0.15.3.AppImage"
         },
-        "version": "0.15.2"
+        "version": "0.15.3"
     },
     "anytls-go": {
         "cargoLock": null,
