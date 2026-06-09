@@ -18,7 +18,7 @@
 stdenv.mkDerivation (finalAttrs: {
   pname = "misskey";
 
-  version = "2025.12.2";
+  version = "2026.5.4";
 
   src = fetchFromGitHub {
     owner = "misskey-dev";
@@ -53,7 +53,7 @@ stdenv.mkDerivation (finalAttrs: {
   # https://nixos.org/manual/nixpkgs/unstable/#javascript-pnpm
   pnpmDeps = pnpm_9.fetchDeps {
     inherit (finalAttrs) pname version src;
-    fetcherVersion = 1;
+    fetcherVersion = 3;
     hash = "sha256-i2wh7X3UjiAYH5me2Vs8LxSrsbmwwVhSTkaHhWwemBI=";
   };
 
