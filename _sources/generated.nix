@@ -8,10 +8,10 @@
 {
   Exiled-Exchange-2 = {
     pname = "Exiled-Exchange-2";
-    version = "0.15.7";
+    version = "0.15.8";
     src = fetchurl {
-      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.7/Exiled-Exchange-2-0.15.7.AppImage";
-      sha256 = "sha256-5wym16j7KjelZxnoJP+KsS0xzTj9PBQf2I3UXkjMhZg=";
+      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.15.8/Exiled-Exchange-2-0.15.8.AppImage";
+      sha256 = "sha256-xmEvKJkRFJokzOa/6qRqT4+QKfnfjIoAfqP+oDqyxH8=";
     };
   };
   anytls-go = {
