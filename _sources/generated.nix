@@ -16,13 +16,13 @@
   };
   anytls-go = {
     pname = "anytls-go";
-    version = "v0.0.12";
+    version = "v0.0.13";
     src = fetchFromGitHub {
       owner = "anytls";
       repo = "anytls-go";
-      rev = "v0.0.12";
+      rev = "v0.0.13";
       fetchSubmodules = false;
-      sha256 = "sha256-KQNRnDpOb9LxoOWzKgE2r7ipe4qHLrKZcE7rGLTCScY=";
+      sha256 = "sha256-2S/iiLutnvNmxJiphpiRk+14pahXrKrifB9DBJBFQlY=";
     };
   };
   awakened-poe-trade = {
@@ -35,10 +35,10 @@
   };
   duckstation = {
     pname = "duckstation";
-    version = "v0.1-11391";
+    version = "v0.1-11443";
     src = fetchurl {
-      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11391/DuckStation-x64.AppImage";
-      sha256 = "sha256-pw7hhKLjcIVhHSTJlpadFOolf+ZY8AXdf+q4lVzCMCY=";
+      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11443/DuckStation-x64.AppImage";
+      sha256 = "sha256-BFRt6Y0/2BJUx79Oad9QLcFbKL0+4IGI9I6PJCmBe+4=";
     };
   };
   path-of-building = {
