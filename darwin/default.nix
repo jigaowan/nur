@@ -11,6 +11,7 @@ in
   imports = [
     ./mcp-nixos
     ./syncthing
+    ./scanocr
   ];
   nixpkgs.overlays = [
     (final: prev: packages)

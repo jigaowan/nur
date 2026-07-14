@@ -33,6 +33,7 @@ let
     path-of-building = callPackage ./pkgs/path-of-building { };
     duckstation = callPackage ./pkgs/duckstation { };
     misskey = callPackage ./pkgs/misskey { };
+    scanocr = callPackage ./pkgs/scanocr { };
   };
 in
 myPkgs

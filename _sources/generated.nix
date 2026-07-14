@@ -49,4 +49,12 @@
       sha256 = "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=";
     };
   };
+  scanocr = {
+    pname = "scanocr";
+    version = "0.1";
+    src = fetchurl {
+      url = "https://github.com/jigaowan/scanocr/releases/download/v0.1/scanocr-server-0.1-aarch64-darwin.tar.gz";
+      sha256 = "sha256-tf6G2npF10BqtcD9PxbojP4HjZ3xJn9QfPGmLE3ccBI=";
+    };
+  };
 }

@@ -20,3 +20,9 @@ fetch.url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/
 src.github_tag = "stenzek/duckstation"
 src.include_regex = "^v[0-9].*"
 fetch.url = "https://github.com/stenzek/duckstation/releases/download/$ver/DuckStation-x64.AppImage"
+
+[scanocr]
+src.github_tag = "jigaowan/scanocr"
+src.include_regex = "^v[0-9]+([.][0-9]+)*$"
+src.prefix = "v"
+fetch.url = "https://github.com/jigaowan/scanocr/releases/download/v$ver/scanocr-server-$ver-aarch64-darwin.tar.gz"
