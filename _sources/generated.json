@@ -89,10 +89,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-tf6G2npF10BqtcD9PxbojP4HjZ3xJn9QfPGmLE3ccBI=",
+            "sha256": "sha256-ike+JVopbgthwwWlcKwAzbqaPHtK+WH/VclOLy4fqYI=",
             "type": "url",
-            "url": "https://github.com/jigaowan/scanocr/releases/download/v0.1/scanocr-server-0.1-aarch64-darwin.tar.gz"
+            "url": "https://github.com/jigaowan/scanocr/releases/download/v0.2/scanocr-server-0.2-aarch64-darwin.tar.gz"
         },
-        "version": "0.1"
+        "version": "0.2"
     }
 }
