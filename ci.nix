@@ -18,7 +18,10 @@ let
   isBuildable = p: let
     licenseFromMeta = p.meta.license or [];
     licenseList = if builtins.isList licenseFromMeta then licenseFromMeta else [licenseFromMeta];
-  in !(p.meta.broken or false) && builtins.all (license: license.free or true) licenseList;
+  in
+    pkgs.lib.meta.availableOn pkgs.stdenv.hostPlatform p
+    && !(p.meta.broken or false)
+    && builtins.all (license: license.free or true) licenseList;
   isCacheable = p: !(p.preferLocalBuild or false);
   shouldRecurseForDerivations = p: isAttrs p && p.recurseForDerivations or false;
 
