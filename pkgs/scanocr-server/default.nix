@@ -5,7 +5,7 @@
   ...
 }:
 stdenvNoCC.mkDerivation {
-  inherit (sources.scanocr) pname version src;
+  inherit (sources.scanocr-server) pname version src;
 
   strictDeps = true;
 

@@ -80,19 +80,40 @@
         },
         "version": "v2.65.0"
     },
-    "scanocr": {
+    "scanocr-client": {
         "cargoLock": null,
         "date": null,
         "extract": null,
-        "name": "scanocr",
+        "name": "scanocr-client",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "jigaowan",
+            "repo": "scanocr",
+            "rev": "client/v0.1.0",
+            "sha256": "sha256-tnQAKVD2z6TxGTs0GkcPParywjtHOo5p4QBYcLeWIXo=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "client/v0.1.0"
+    },
+    "scanocr-server": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "scanocr-server",
         "passthru": null,
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ike+JVopbgthwwWlcKwAzbqaPHtK+WH/VclOLy4fqYI=",
+            "sha256": "sha256-XirQLOdOZiM7k+HwrNtih1Tj9gaEHqcCMsh8lCh1Vj4=",
             "type": "url",
-            "url": "https://github.com/jigaowan/scanocr/releases/download/v0.2/scanocr-server-0.2-aarch64-darwin.tar.gz"
+            "url": "https://github.com/jigaowan/scanocr/releases/download/server%2Fv0.2.0/scanocr-server-0.2.0-aarch64-darwin.tar.gz"
         },
-        "version": "0.2"
+        "version": "0.2.0"
     }
 }

@@ -21,8 +21,13 @@ src.github_tag = "stenzek/duckstation"
 src.include_regex = "^v[0-9].*"
 fetch.url = "https://github.com/stenzek/duckstation/releases/download/$ver/DuckStation-x64.AppImage"
 
-[scanocr]
+[scanocr-server]
 src.github_tag = "jigaowan/scanocr"
-src.include_regex = "^v[0-9]+([.][0-9]+)*$"
-src.prefix = "v"
-fetch.url = "https://github.com/jigaowan/scanocr/releases/download/v$ver/scanocr-server-$ver-aarch64-darwin.tar.gz"
+src.include_regex = "^server/v[0-9]+([.][0-9]+)*$"
+src.prefix = "server/v"
+fetch.url = "https://github.com/jigaowan/scanocr/releases/download/server%2Fv$ver/scanocr-server-$ver-aarch64-darwin.tar.gz"
+
+[scanocr-client]
+src.github_tag = "jigaowan/scanocr"
+src.include_regex = "^client/v[0-9]+([.][0-9]+)*$"
+fetch.github = "jigaowan/scanocr"

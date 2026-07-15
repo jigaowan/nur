@@ -49,12 +49,23 @@
       sha256 = "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=";
     };
   };
-  scanocr = {
-    pname = "scanocr";
-    version = "0.2";
+  scanocr-client = {
+    pname = "scanocr-client";
+    version = "client/v0.1.0";
+    src = fetchFromGitHub {
+      owner = "jigaowan";
+      repo = "scanocr";
+      rev = "client/v0.1.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-tnQAKVD2z6TxGTs0GkcPParywjtHOo5p4QBYcLeWIXo=";
+    };
+  };
+  scanocr-server = {
+    pname = "scanocr-server";
+    version = "0.2.0";
     src = fetchurl {
-      url = "https://github.com/jigaowan/scanocr/releases/download/v0.2/scanocr-server-0.2-aarch64-darwin.tar.gz";
-      sha256 = "sha256-ike+JVopbgthwwWlcKwAzbqaPHtK+WH/VclOLy4fqYI=";
+      url = "https://github.com/jigaowan/scanocr/releases/download/server%2Fv0.2.0/scanocr-server-0.2.0-aarch64-darwin.tar.gz";
+      sha256 = "sha256-XirQLOdOZiM7k+HwrNtih1Tj9gaEHqcCMsh8lCh1Vj4=";
     };
   };
 }

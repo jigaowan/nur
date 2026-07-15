@@ -6,7 +6,7 @@
 }:
 
 let
-  cfg = config.services.scanocr;
+  cfg = config.services.scanocr-server;
 
   absoluteOrHomePath = lib.types.str // {
     check = value: lib.types.str.check value && (lib.hasPrefix "/" value || lib.hasPrefix "~/" value);
@@ -42,27 +42,27 @@ let
   );
 in
 {
-  options.services.scanocr = {
+  options.services.scanocr-server = {
     enable = lib.mkEnableOption "ScanOCR screenshot OCR and translation server";
 
-    package = lib.mkPackageOption pkgs "scanocr" { };
+    package = lib.mkPackageOption pkgs "scanocr-server" { };
 
     host = lib.mkOption {
       type = lib.types.str;
       default = "127.0.0.1";
-      description = "Address on which ScanOCR listens.";
+      description = "Address on which ScanOCR Server listens.";
     };
 
     port = lib.mkOption {
       type = lib.types.port;
       default = 8732;
-      description = "Port on which ScanOCR listens.";
+      description = "Port on which ScanOCR Server listens.";
     };
 
     openBrowser = lib.mkOption {
       type = lib.types.bool;
       default = false;
-      description = "Whether to open the ScanOCR web interface when the service starts.";
+      description = "Whether to open the ScanOCR web interface when the server starts.";
     };
 
     maxUploadBytes = lib.mkOption {
@@ -77,8 +77,8 @@ in
       example = "~/Library/Application Support/ScanOCR/token";
       description = ''
         File containing the bearer token used to authenticate API requests.
-        ScanOCR requires this file to have mode 0600 at runtime. The token is
-        referenced by path and is not copied into the Nix store.
+        ScanOCR Server requires this file to have mode 0600 at runtime. The
+        token is referenced by path and is not copied into the Nix store.
       '';
     };
 
@@ -87,8 +87,8 @@ in
       default = null;
       example = "replace-with-a-random-token";
       description = ''
-        Bearer token written directly to the generated ScanOCR configuration.
-        Use either this option or tokenFile, but not both.
+        Bearer token written directly to the generated ScanOCR Server
+        configuration. Use either this option or tokenFile, but not both.
       '';
     };
 
@@ -97,7 +97,7 @@ in
       default = null;
       example = "~/Library/Application Support/ScanOCR";
       description = ''
-        Directory in which ScanOCR stores its database, captures, and
+        Directory in which ScanOCR Server stores its database, captures, and
         thumbnails. The upstream per-user default is used when this is null.
       '';
     };
@@ -131,13 +131,13 @@ in
     assertions = [
       {
         assertion = (cfg.token != null) != (cfg.tokenFile != null);
-        message = "Set exactly one of services.scanocr.token or services.scanocr.tokenFile.";
+        message = "Set exactly one of services.scanocr-server.token or services.scanocr-server.tokenFile.";
       }
     ];
 
     environment.systemPackages = [ cfg.package ];
 
-    launchd.user.agents.scanocr = {
+    launchd.user.agents.scanocr-server = {
       serviceConfig = {
         ProgramArguments = [
           (lib.getExe cfg.package)
@@ -149,7 +149,7 @@ in
         RunAtLoad = true;
         ProcessType = "Background";
       };
-      managedBy = "services.scanocr.enable";
+      managedBy = "services.scanocr-server.enable";
     };
   };
 }
