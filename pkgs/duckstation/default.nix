@@ -13,6 +13,8 @@ in
 appimageTools.wrapType2 rec {
   inherit pname version src;
 
+  extraPreBwrapCmds = "unset QT_PLUGIN_PATH";
+
   extraInstallCommands = ''
     install -m 444 -D ${appimageContents}/usr/share/applications/org.duckstation.DuckStation.desktop \
       $out/share/applications/org.duckstation.DuckStation.desktop
