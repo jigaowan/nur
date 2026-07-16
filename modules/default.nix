@@ -17,6 +17,7 @@ in
     ./trojan-go
     ./misskey-hub
     ./mcp-nixos
+    ./scanocr-client
   ];
   nixpkgs.overlays = [
     (final: prev: packages)
