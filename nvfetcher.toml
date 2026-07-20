@@ -21,6 +21,14 @@ src.github_tag = "stenzek/duckstation"
 src.include_regex = "^v[0-9].*"
 fetch.url = "https://github.com/stenzek/duckstation/releases/download/$ver/DuckStation-x64.AppImage"
 
+[proton-cachyos]
+src.github = "CachyOS/proton-cachyos"
+fetch.url = "https://github.com/CachyOS/proton-cachyos/releases/download/$ver/proton-$ver-x86_64.tar.xz"
+
+[proton-cachyos-x86_64-v3]
+src.github = "CachyOS/proton-cachyos"
+fetch.url = "https://github.com/CachyOS/proton-cachyos/releases/download/$ver/proton-$ver-x86_64_v3.tar.xz"
+
 [scanocr-server]
 src.github_tag = "jigaowan/scanocr"
 src.include_regex = "^server/v[0-9]+([.][0-9]+)*$"
