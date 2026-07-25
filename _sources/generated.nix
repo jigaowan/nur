@@ -27,26 +27,26 @@
   };
   awakened-poe-trade = {
     pname = "awakened-poe-trade";
-    version = "3.28.103";
+    version = "3.28.104";
     src = fetchurl {
-      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.103/Awakened-PoE-Trade-3.28.103.AppImage";
-      sha256 = "sha256-p/XDWnE9lm/LwT3r/lhQWtEJ3YoaGRFd4Rv7RbdDIeg=";
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.104/Awakened-PoE-Trade-3.28.104.AppImage";
+      sha256 = "sha256-SDsqElJAOZps24r+Q4bz0s5n7BAfLT47WBf0MJbaDDE=";
     };
   };
   duckstation = {
     pname = "duckstation";
-    version = "v0.1-11515";
+    version = "v0.1-11580";
     src = fetchurl {
-      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11515/DuckStation-x64.AppImage";
-      sha256 = "sha256-2i30TQrRknlSJ2bl5z9I8olag5EQEwdWeY+7P5TIK0Y=";
+      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11580/DuckStation-x64.AppImage";
+      sha256 = "sha256-HEjypHirDlh5CaaMTkelDKW33ZMhATB21RcVUbasrj8=";
     };
   };
   path-of-building = {
     pname = "path-of-building";
-    version = "v2.65.0";
+    version = "v2.66.0";
     src = fetchurl {
-      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.65.0/PathOfBuildingCommunity-Portable.zip";
-      sha256 = "sha256-M52r6iLFVkNr0fgHYkBe0rkQBQDrbpL43nxKz3LPNUg=";
+      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.66.0/PathOfBuildingCommunity-Portable.zip";
+      sha256 = "sha256-+COBkWRVso+IM2iTYN2xkRowmrdv++drg0HYRUsDbdw=";
     };
   };
   proton-cachyos = {
