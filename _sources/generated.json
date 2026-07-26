@@ -44,11 +44,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-SDsqElJAOZps24r+Q4bz0s5n7BAfLT47WBf0MJbaDDE=",
+            "sha256": "sha256-sWVzwNYTYIcCeMnfHCjCJ/UuGiN6Se72i2V0afLlqmU=",
             "type": "url",
-            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.104/Awakened-PoE-Trade-3.28.104.AppImage"
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.101/Awakened-PoE-Trade-3.29.101.AppImage"
         },
-        "version": "3.28.104"
+        "version": "3.29.101"
     },
     "duckstation": {
         "cargoLock": null,
@@ -74,11 +74,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+COBkWRVso+IM2iTYN2xkRowmrdv++drg0HYRUsDbdw=",
+            "sha256": "sha256-whdSahZ2vztdfJ1JanEjUMs4ttgV/ESAKD7BmMLqHSg=",
             "type": "url",
-            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.66.0/PathOfBuildingCommunity-Portable.zip"
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.66.2/PathOfBuildingCommunity-Portable.zip"
         },
-        "version": "v2.66.0"
+        "version": "v2.66.2"
     },
     "proton-cachyos": {
         "cargoLock": null,
