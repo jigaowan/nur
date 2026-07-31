@@ -2,10 +2,12 @@
   lib,
   appimageTools,
   sources,
+  launchArgs ? [ ],
   ...
 }:
 let
   inherit (sources.awakened-poe-trade) pname version src;
+  desktopExec = lib.concatStringsSep " " ([ "Exec=${pname}" ] ++ launchArgs ++ [ "%U" ]);
   appimageContents = appimageTools.extract {
     inherit pname version src;
   };
@@ -18,7 +20,7 @@ appimageTools.wrapType2 rec {
     install -m 444 -D ${appimageContents}/usr/share/icons/hicolor/512x512/apps/awakened-poe-trade.png \
       $out/share/icons/hicolor/512x512/apps/awakened-poe-trade.png
     substituteInPlace $out/share/applications/awakened-poe-trade.desktop \
-      --replace-fail 'Exec=AppRun %U' 'Exec=${pname} --listen=localhost:9128 --no-overlay %U'
+      --replace-fail 'Exec=AppRun %U' ${lib.escapeShellArg desktopExec}
   '';
 
   meta = with lib; {
