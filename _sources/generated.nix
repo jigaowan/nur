@@ -43,10 +43,10 @@
   };
   path-of-building = {
     pname = "path-of-building";
-    version = "v2.66.2";
+    version = "v2.67.1";
     src = fetchurl {
-      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.66.2/PathOfBuildingCommunity-Portable.zip";
-      sha256 = "sha256-whdSahZ2vztdfJ1JanEjUMs4ttgV/ESAKD7BmMLqHSg=";
+      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.67.1/PathOfBuildingCommunity-Portable.zip";
+      sha256 = "sha256-3rbj6RKsqBVfmJ34PfUWcm6+1462mvUBOD9Xd7UUb/o=";
     };
   };
   proton-cachyos = {
