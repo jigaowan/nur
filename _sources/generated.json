@@ -124,12 +124,12 @@
             "name": null,
             "owner": "jigaowan",
             "repo": "scanocr",
-            "rev": "client/v0.1.0",
-            "sha256": "sha256-tnQAKVD2z6TxGTs0GkcPParywjtHOo5p4QBYcLeWIXo=",
+            "rev": "client/v0.1.1",
+            "sha256": "sha256-sow6JFoB+sYruVRWxaOtubspB7zA8+LRnBuYuAdEWug=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "client/v0.1.0"
+        "version": "client/v0.1.1"
     },
     "scanocr-server": {
         "cargoLock": null,

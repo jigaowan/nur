@@ -67,13 +67,13 @@
   };
   scanocr-client = {
     pname = "scanocr-client";
-    version = "client/v0.1.0";
+    version = "client/v0.1.1";
     src = fetchFromGitHub {
       owner = "jigaowan";
       repo = "scanocr";
-      rev = "client/v0.1.0";
+      rev = "client/v0.1.1";
       fetchSubmodules = false;
-      sha256 = "sha256-tnQAKVD2z6TxGTs0GkcPParywjtHOo5p4QBYcLeWIXo=";
+      sha256 = "sha256-sow6JFoB+sYruVRWxaOtubspB7zA8+LRnBuYuAdEWug=";
     };
   };
   scanocr-server = {
