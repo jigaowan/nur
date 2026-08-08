@@ -74,11 +74,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-3rbj6RKsqBVfmJ34PfUWcm6+1462mvUBOD9Xd7UUb/o=",
+            "sha256": "sha256-ofMLYMx8khjfKdzT7QmzEbCl/c6MJ9VRf5/h43pGgqc=",
             "type": "url",
-            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.67.1/PathOfBuildingCommunity-Portable.zip"
+            "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.67.2/PathOfBuildingCommunity-Portable.zip"
         },
-        "version": "v2.67.1"
+        "version": "v2.67.2"
     },
     "proton-cachyos": {
         "cargoLock": null,
