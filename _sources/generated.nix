@@ -35,10 +35,10 @@
   };
   duckstation = {
     pname = "duckstation";
-    version = "v0.1-11580";
+    version = "v0.1-11609";
     src = fetchurl {
-      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11580/DuckStation-x64.AppImage";
-      sha256 = "sha256-HEjypHirDlh5CaaMTkelDKW33ZMhATB21RcVUbasrj8=";
+      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-11609/DuckStation-x64.AppImage";
+      sha256 = "sha256-CaA+tOWx0DCYw2FtqGzqcpu2C1MykbINhjt1j9vXVr0=";
     };
   };
   path-of-building = {

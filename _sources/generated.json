@@ -59,11 +59,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-HEjypHirDlh5CaaMTkelDKW33ZMhATB21RcVUbasrj8=",
+            "sha256": "sha256-CaA+tOWx0DCYw2FtqGzqcpu2C1MykbINhjt1j9vXVr0=",
             "type": "url",
-            "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-11580/DuckStation-x64.AppImage"
+            "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-11609/DuckStation-x64.AppImage"
         },
-        "version": "v0.1-11580"
+        "version": "v0.1-11609"
     },
     "path-of-building": {
         "cargoLock": null,
