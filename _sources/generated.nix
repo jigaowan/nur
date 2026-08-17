@@ -27,10 +27,10 @@
   };
   awakened-poe-trade = {
     pname = "awakened-poe-trade";
-    version = "3.29.104";
+    version = "3.29.106";
     src = fetchurl {
-      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.104/Awakened-PoE-Trade-3.29.104.AppImage";
-      sha256 = "sha256-ApZwjy1tJwUtevLA7QY8/zrnHI5Tt4aXMpTo+5VWGUg=";
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.106/Awakened-PoE-Trade-3.29.106.AppImage";
+      sha256 = "sha256-YIVEHur99IaVvA/M2cDnSiIGl/wl5UEmehm7ce6bHDU=";
     };
   };
   duckstation = {
