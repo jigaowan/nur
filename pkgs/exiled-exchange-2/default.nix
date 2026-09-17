@@ -2,10 +2,12 @@
   lib,
   appimageTools,
   sources,
+  launchArgs ? [ ],
   ...
 }:
 let
   inherit (sources.Exiled-Exchange-2) pname version src;
+  desktopExec = lib.concatStringsSep " " ([ "Exec=${pname}" ] ++ launchArgs ++ [ "%U" ]);
   appimageContents = appimageTools.extract {
     inherit pname version src;
   };
@@ -18,7 +20,7 @@ appimageTools.wrapType2 rec {
     install -m 444 -D ${appimageContents}/usr/share/icons/hicolor/512x512/apps/exiled-exchange-2.png \
       $out/share/icons/hicolor/512x512/apps/exiled-exchange-2.png
     substituteInPlace $out/share/applications/exiled-exchange-2.desktop \
-      --replace-fail 'Exec=AppRun --sandbox %U' 'Exec=${pname} --sandbox --listen=localhost:9129 --no-overlay %U'
+      --replace-fail 'Exec=AppRun --sandbox %U' ${lib.escapeShellArg desktopExec}
   '';
 
   meta = with lib; {

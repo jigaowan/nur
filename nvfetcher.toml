@@ -39,3 +39,7 @@ fetch.url = "https://github.com/jigaowan/scanocr/releases/download/server%2Fv$ve
 src.github_tag = "jigaowan/scanocr"
 src.include_regex = "^client/v[0-9]+([.][0-9]+)*$"
 fetch.github = "jigaowan/scanocr"
+
+[simslim]
+src.github = "MobAI-App/simslim"
+fetch.github = "MobAI-App/simslim"

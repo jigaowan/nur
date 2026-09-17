@@ -84,4 +84,15 @@
       sha256 = "sha256-XirQLOdOZiM7k+HwrNtih1Tj9gaEHqcCMsh8lCh1Vj4=";
     };
   };
+  simslim = {
+    pname = "simslim";
+    version = "v0.9.0";
+    src = fetchFromGitHub {
+      owner = "MobAI-App";
+      repo = "simslim";
+      rev = "v0.9.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-rb9hQBKEN1ZsGmup9UnOI4LxToqDR8tPWqyHN1YvWkk=";
+    };
+  };
 }

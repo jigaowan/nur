@@ -29,7 +29,7 @@ let
     anytls-go = callPackage ./pkgs/anytls-go { };
     trojan-go = callPackage ./pkgs/trojan-go { };
     awakened-poe-trade = pkgs.lib.callPackageWith allPkgs ./pkgs/awakened-poe-trade { };
-    exiled-exchange-2 = callPackage ./pkgs/exiled-exchange-2 { };
+    exiled-exchange-2 = pkgs.lib.callPackageWith allPkgs ./pkgs/exiled-exchange-2 { };
     path-of-building = callPackage ./pkgs/path-of-building { };
     duckstation = callPackage ./pkgs/duckstation { };
     proton-cachyos = callPackage ./pkgs/proton-cachyos { };
@@ -39,6 +39,7 @@ let
     misskey = callPackage ./pkgs/misskey { };
     scanocr-client = callPackage ./pkgs/scanocr-client { };
     scanocr-server = callPackage ./pkgs/scanocr-server { };
+    simslim = callPackage ./pkgs/simslim { };
   };
 in
 myPkgs

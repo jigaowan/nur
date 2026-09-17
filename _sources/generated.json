@@ -145,5 +145,26 @@
             "url": "https://github.com/jigaowan/scanocr/releases/download/server%2Fv0.2.0/scanocr-server-0.2.0-aarch64-darwin.tar.gz"
         },
         "version": "0.2.0"
+    },
+    "simslim": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "simslim",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "MobAI-App",
+            "repo": "simslim",
+            "rev": "v0.9.0",
+            "sha256": "sha256-rb9hQBKEN1ZsGmup9UnOI4LxToqDR8tPWqyHN1YvWkk=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.9.0"
     }
 }
