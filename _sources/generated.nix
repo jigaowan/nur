@@ -86,13 +86,13 @@
   };
   simslim = {
     pname = "simslim";
-    version = "v0.10.0";
+    version = "v0.11.0";
     src = fetchFromGitHub {
       owner = "MobAI-App";
       repo = "simslim";
-      rev = "v0.10.0";
+      rev = "v0.11.0";
       fetchSubmodules = false;
-      sha256 = "sha256-so8FW90NENq2q1i7CgwmJMh5rtuXW9nwK/u+9u4KXlI=";
+      sha256 = "sha256-n12sJVXChfegoqdESpztOivjHVUSD9vIFxoqyn3WyrE=";
     };
   };
 }

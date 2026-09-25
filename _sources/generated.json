@@ -160,11 +160,11 @@
             "name": null,
             "owner": "MobAI-App",
             "repo": "simslim",
-            "rev": "v0.10.0",
-            "sha256": "sha256-so8FW90NENq2q1i7CgwmJMh5rtuXW9nwK/u+9u4KXlI=",
+            "rev": "v0.11.0",
+            "sha256": "sha256-n12sJVXChfegoqdESpztOivjHVUSD9vIFxoqyn3WyrE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.10.0"
+        "version": "v0.11.0"
     }
 }
