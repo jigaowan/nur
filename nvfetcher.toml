@@ -43,3 +43,28 @@ fetch.github = "jigaowan/scanocr"
 [simslim]
 src.github = "MobAI-App/simslim"
 fetch.github = "MobAI-App/simslim"
+
+[magpie-cli-x86_64-linux]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-cli-linux-amd64"
+
+[magpie-cli-aarch64-linux]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-cli-linux-arm64"
+
+[magpie-cli-x86_64-darwin]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-cli-darwin-amd64"
+
+[magpie-cli-aarch64-darwin]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-cli-darwin-arm64"
+
+[magpie]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-darwin-arm64.dmg"

@@ -40,6 +40,8 @@ let
     scanocr-client = callPackage ./pkgs/scanocr-client { };
     scanocr-server = callPackage ./pkgs/scanocr-server { };
     simslim = callPackage ./pkgs/simslim { };
+    magpie-cli = callPackage ./pkgs/magpie-cli { };
+    magpie = callPackage ./pkgs/magpie { };
   };
 in
 myPkgs
