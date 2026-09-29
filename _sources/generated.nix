@@ -43,42 +43,42 @@
   };
   magpie = {
     pname = "magpie";
-    version = "0.1.327";
+    version = "0.1.350";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.327/magpie-darwin-arm64.dmg";
-      sha256 = "sha256-cnr6TwRiw2sr3+CaDYwG22d7F0dQCKjoS/uqhuwS9is=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.350/magpie-darwin-arm64.dmg";
+      sha256 = "sha256-+6hBCmUcuFBvQ1WAHVYkM4K7nuIYMaf5SXQ0u/ICzvQ=";
     };
   };
   magpie-cli-aarch64-darwin = {
     pname = "magpie-cli-aarch64-darwin";
-    version = "0.1.327";
+    version = "0.1.350";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.327/magpie-cli-darwin-arm64";
-      sha256 = "sha256-nbQB4QAZ1dJLbXt7DBXvaxX4dn9YT66RcBOs6jNwQaA=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.350/magpie-cli-darwin-arm64";
+      sha256 = "sha256-71ORsK5xh3z9/GmAdZg946xrkt6WqiCUbW2CMU0dV/U=";
     };
   };
   magpie-cli-aarch64-linux = {
     pname = "magpie-cli-aarch64-linux";
-    version = "0.1.327";
+    version = "0.1.350";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.327/magpie-cli-linux-arm64";
-      sha256 = "sha256-yfxhF5WPaTE0wBb6o07w5YOnAIc1NBgj05ruYzPxhVo=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.350/magpie-cli-linux-arm64";
+      sha256 = "sha256-ilmuh64cL8g/lbIpIuZh1mkVQNUNNgznRp/HvdIlfKI=";
     };
   };
   magpie-cli-x86_64-darwin = {
     pname = "magpie-cli-x86_64-darwin";
-    version = "0.1.327";
+    version = "0.1.350";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.327/magpie-cli-darwin-amd64";
-      sha256 = "sha256-M1Q6DuhGQYrQmkDErP9coQUGvSoVMTCiS+o8Cbzum48=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.350/magpie-cli-darwin-amd64";
+      sha256 = "sha256-bisXPFb1lX2rMZfR4c5tCLp5QLn0B2s4QJQ4r9oP+4g=";
     };
   };
   magpie-cli-x86_64-linux = {
     pname = "magpie-cli-x86_64-linux";
-    version = "0.1.327";
+    version = "0.1.350";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.327/magpie-cli-linux-amd64";
-      sha256 = "sha256-puPIYBvAmdxgKyjl+0a4KHyR4Lfrb7Ntiy7uJVWigjk=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.350/magpie-cli-linux-amd64";
+      sha256 = "sha256-0Qpzt/UylRs5LtNiCwjO7z7SIU9N9PrMcI7j382BeiM=";
     };
   };
   path-of-building = {
