@@ -68,3 +68,13 @@ fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/m
 src.github = "yetone/magpie-releases"
 src.prefix = "v"
 fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-darwin-arm64.dmg"
+
+[magpie-x86_64-linux]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-linux-amd64"
+
+[magpie-aarch64-linux]
+src.github = "yetone/magpie-releases"
+src.prefix = "v"
+fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-linux-arm64"
