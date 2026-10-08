@@ -121,6 +121,22 @@
       sha256 = "sha256-ulKk8xoGD/yiuOBfwA5RvDnkwVAZKOtakhiw+ge/yMc=";
     };
   };
+  proton-wineland = {
+    pname = "proton-wineland";
+    version = "wineland-11.0-20261005";
+    src = fetchurl {
+      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64.tar.xz";
+      sha256 = "sha256-Bn+XnkIP+PT6NozRpo7x7HYVfbSFgI9pWTeRpCiLN4U=";
+    };
+  };
+  proton-wineland-x86_64-v3 = {
+    pname = "proton-wineland-x86_64-v3";
+    version = "wineland-11.0-20261005";
+    src = fetchurl {
+      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64_v3.tar.xz";
+      sha256 = "sha256-qzbRpoUOhPCjvRBSBp4RXBiKHQoRTIOr8tXTOZrcyWg=";
+    };
+  };
   scanocr-client = {
     pname = "scanocr-client";
     version = "client/v0.1.1";

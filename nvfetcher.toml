@@ -29,6 +29,14 @@ fetch.url = "https://github.com/CachyOS/proton-cachyos/releases/download/$ver/pr
 src.github = "CachyOS/proton-cachyos"
 fetch.url = "https://github.com/CachyOS/proton-cachyos/releases/download/$ver/proton-$ver-x86_64_v3.tar.xz"
 
+[proton-wineland]
+src.github = "nanomatters/proton-cachyos"
+fetch.url = "https://github.com/nanomatters/proton-cachyos/releases/download/$ver/proton-$ver-x86_64.tar.xz"
+
+[proton-wineland-x86_64-v3]
+src.github = "nanomatters/proton-cachyos"
+fetch.url = "https://github.com/nanomatters/proton-cachyos/releases/download/$ver/proton-$ver-x86_64_v3.tar.xz"
+
 [scanocr-server]
 src.github_tag = "jigaowan/scanocr"
 src.include_regex = "^server/v[0-9]+([.][0-9]+)*$"

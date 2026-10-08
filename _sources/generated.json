@@ -215,6 +215,36 @@
         },
         "version": "cachyos-11.0-20261005-slr"
     },
+    "proton-wineland": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "proton-wineland",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Bn+XnkIP+PT6NozRpo7x7HYVfbSFgI9pWTeRpCiLN4U=",
+            "type": "url",
+            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64.tar.xz"
+        },
+        "version": "wineland-11.0-20261005"
+    },
+    "proton-wineland-x86_64-v3": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "proton-wineland-x86_64-v3",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-qzbRpoUOhPCjvRBSBp4RXBiKHQoRTIOr8tXTOZrcyWg=",
+            "type": "url",
+            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64_v3.tar.xz"
+        },
+        "version": "wineland-11.0-20261005"
+    },
     "scanocr-client": {
         "cargoLock": null,
         "date": null,

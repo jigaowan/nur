@@ -36,6 +36,10 @@ let
     proton-cachyos-x86_64-v3 = callPackage ./pkgs/proton-cachyos {
       variant = "x86_64-v3";
     };
+    proton-wineland = callPackage ./pkgs/proton-wineland { };
+    proton-wineland-x86_64-v3 = callPackage ./pkgs/proton-wineland {
+      variant = "x86_64-v3";
+    };
     misskey = callPackage ./pkgs/misskey { };
     scanocr-client = callPackage ./pkgs/scanocr-client { };
     scanocr-server = callPackage ./pkgs/scanocr-server { };
