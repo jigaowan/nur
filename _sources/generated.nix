@@ -43,58 +43,58 @@
   };
   magpie = {
     pname = "magpie";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-darwin-arm64.dmg";
-      sha256 = "sha256-MGziXyt+DCt4KLhfaw7HskT7fEbRRNny9HgFhn2Yiqc=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-darwin-arm64.dmg";
+      sha256 = "sha256-cUCefgupLphaSf/83kJShT2zqSCGOtYXSEaKnOvOw7Y=";
     };
   };
   magpie-aarch64-linux = {
     pname = "magpie-aarch64-linux";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-linux-arm64";
-      sha256 = "sha256-S6/upTKdXwR9qumQlUoJF7PFTezu9181UQEdvTxeLEc=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-linux-arm64";
+      sha256 = "sha256-ho6wAnZZoBTDzOX5Tb2gQEpZkkf8EZOat5AHPcDvxj4=";
     };
   };
   magpie-cli-aarch64-darwin = {
     pname = "magpie-cli-aarch64-darwin";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-cli-darwin-arm64";
-      sha256 = "sha256-8cxOIpNu4/1w+TcuqeQQYgDAyz5f3Dq1iaOlPWg4b7k=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-cli-darwin-arm64";
+      sha256 = "sha256-uXQCteysJAfhzXh4T9HekGDMhnGSgFeeHaFuMlXc4jQ=";
     };
   };
   magpie-cli-aarch64-linux = {
     pname = "magpie-cli-aarch64-linux";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-cli-linux-arm64";
-      sha256 = "sha256-Qu/YpUrOHwXt94xFFFU8LaTAdlYgW9wKWe/78f4VoRQ=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-cli-linux-arm64";
+      sha256 = "sha256-MEuZw/PqJGsPx6h4ZeC8KI9wtmLkONQqKoaGF7CtdDk=";
     };
   };
   magpie-cli-x86_64-darwin = {
     pname = "magpie-cli-x86_64-darwin";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-cli-darwin-amd64";
-      sha256 = "sha256-IeeJmpNyNJrRfd0cUiHHLF0zQwZUZ37i4sRgDVnTxUc=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-cli-darwin-amd64";
+      sha256 = "sha256-7wxvr7eygwufTS7iSMiFEdFCsX6wLCSwn5UPCc+U6nk=";
     };
   };
   magpie-cli-x86_64-linux = {
     pname = "magpie-cli-x86_64-linux";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-cli-linux-amd64";
-      sha256 = "sha256-o3LkN5fUIqxkMoIFhTrbHRsr1mFoGjwrXfDTOFkcC6Y=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-cli-linux-amd64";
+      sha256 = "sha256-HwkAm3hRNJdw3ndyLLMM0sb5dPj68rUmYwDOIEVkedQ=";
     };
   };
   magpie-x86_64-linux = {
     pname = "magpie-x86_64-linux";
-    version = "0.1.1182";
+    version = "0.1.1190";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1182/magpie-linux-amd64";
-      sha256 = "sha256-tCAxezH+cgdMF0Jd4GBTgWtJzsIpmj0/KGxCthHZn8g=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1190/magpie-linux-amd64";
+      sha256 = "sha256-Sd9ov3jG6ZcwsUb8x0uZ+ZdB2mME6G57gGG0aMjIJOE=";
     };
   };
   path-of-building = {
@@ -123,18 +123,18 @@
   };
   proton-wineland = {
     pname = "proton-wineland";
-    version = "wineland-11.0-20261005";
+    version = "wineland-11.0-20261011";
     src = fetchurl {
-      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64.tar.xz";
-      sha256 = "sha256-Bn+XnkIP+PT6NozRpo7x7HYVfbSFgI9pWTeRpCiLN4U=";
+      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261011/proton-wineland-11.0-20261011-x86_64.tar.xz";
+      sha256 = "sha256-PBvOQ47CYtvEJ6FyU7JWyiL2yKyS6fvSRMYAS4zr0JE=";
     };
   };
   proton-wineland-x86_64-v3 = {
     pname = "proton-wineland-x86_64-v3";
-    version = "wineland-11.0-20261005";
+    version = "wineland-11.0-20261011";
     src = fetchurl {
-      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261005/proton-wineland-11.0-20261005-x86_64_v3.tar.xz";
-      sha256 = "sha256-qzbRpoUOhPCjvRBSBp4RXBiKHQoRTIOr8tXTOZrcyWg=";
+      url = "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261011/proton-wineland-11.0-20261011-x86_64_v3.tar.xz";
+      sha256 = "sha256-Mvpq6LwNj7m/uHgslIcUjUjgzytYec5Gt1OyugUp0Oc=";
     };
   };
   scanocr-client = {
