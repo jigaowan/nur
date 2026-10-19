@@ -19,13 +19,13 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "misskey";
-  version = "2026.5.4";
+  version = "2026.10.0";
 
   src = fetchFromGitHub {
     owner = "misskey-dev";
     repo = "misskey";
     tag = finalAttrs.version;
-    hash = "sha256-ENq5V1lIFGKIr1xZccy1LFRYVqZVEhDzBhAbDNcG5sM=";
+    hash = "sha256-GRJcqCItqQJToxnJGxlTOnBSiaIq8uxQNAFLEW1KJy0=";
     fetchSubmodules = true;
   };
 
@@ -60,7 +60,7 @@ stdenv.mkDerivation (finalAttrs: {
       ;
     inherit pnpm;
     fetcherVersion = 4;
-    hash = "sha256-wEbYkfp+zfytOPBjEcyTHCaoohGRNRjG5oTUefI5BVw=";
+    hash = "sha256-l19dCv7vid/6rbNLU0fjMAewMgo12JOdqGfN4IVh5DY=";
   };
 
   buildPhase = ''
@@ -77,10 +77,6 @@ stdenv.mkDerivation (finalAttrs: {
     (
       cd node_modules/.pnpm/node_modules/re2
       pnpm run rebuild --nodedir=${nodejs}
-    )
-    (
-      cd node_modules/.pnpm/node_modules/sharp
-      pnpm run install
     )
 
     # Force sass-embedded npm package to use our dart-sass instead of bundled binaries.
