@@ -60,6 +60,8 @@ let
     outputHashAlgo = "sha256";
   };
 in
+# withPlugins only supplies the plugin version check. Its generated source
+# embeds the Go patch version, so the hashed source is `src` above.
 (caddy.withPlugins {
   inherit plugins;
   hash = lib.fakeHash;
