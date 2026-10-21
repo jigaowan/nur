@@ -46,6 +46,7 @@ let
     simslim = callPackage ./pkgs/simslim { };
     magpie-cli = callPackage ./pkgs/magpie-cli { };
     magpie = callPackage ./pkgs/magpie { };
+    caddy-with-dns = callPackage ./pkgs/caddy-with-dns { };
   };
 in
 myPkgs
