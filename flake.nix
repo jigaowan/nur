@@ -17,7 +17,10 @@
       });
       packages = forAllSystems (system: nixpkgs.lib.filterAttrs (_: v: nixpkgs.lib.isDerivation v) self.legacyPackages.${system});
       nixosModules = { default = ./modules; };
-      darwinModules = { default = ./darwin; };
+      darwinModules = {
+        default = ./darwin;
+        caddy = ./darwin/caddy;
+      };
       overlays = { default = import ./overlay.nix; };
     };
 }

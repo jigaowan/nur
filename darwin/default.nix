@@ -9,6 +9,7 @@ let
 in
 {
   imports = [
+    ./caddy
     ./mcp-nixos
     ./syncthing
     ./scanocr-server
