@@ -74,11 +74,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-npsa6u0WpV5i8z/JaGGS7fmBfWLsgqBCfOpfZRPziDk=",
+            "sha256": "sha256-XwDVPStkR18jarrYC/gs4xHNv45Ip0pBVZXrImngHs8=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-darwin-arm64.dmg"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-darwin-arm64.dmg"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-aarch64-linux": {
         "cargoLock": null,
@@ -89,11 +89,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-o4cQlqbZeaJRM0rbW2yj07li+NLbcGJ8kaGV58uqA0U=",
+            "sha256": "sha256-WY2XUdVN4NZB8AslxKcWcp1r0RBDUly3xADCEZf1Rlg=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-linux-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-linux-arm64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-cli-aarch64-darwin": {
         "cargoLock": null,
@@ -104,11 +104,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-zGjT4+NoSgYday2GOLybquMOJCnhSanJbFIU/M3cASg=",
+            "sha256": "sha256-lR3Q3Fkk9BE4I3nrB30zMczlT+O2aObRl29dv/CSIOs=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-cli-darwin-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-cli-darwin-arm64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-cli-aarch64-linux": {
         "cargoLock": null,
@@ -119,11 +119,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-2BrJuRjhWXPkx3MiTWimqkS+0y78HNAZ3OJVJEcmNms=",
+            "sha256": "sha256-S4GP0cX6QMILQE8Kv/GwDpi5Qyu9O250bi9cCuccI+g=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-cli-linux-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-cli-linux-arm64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-cli-x86_64-darwin": {
         "cargoLock": null,
@@ -134,11 +134,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-qzYL6eoOyaZAcQvOd6op9knYhRCX3FtyugKHa/4rQCQ=",
+            "sha256": "sha256-viATfCfCwisb/UYq77TVhKhBiYs+/fk7le5anafuIMw=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-cli-darwin-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-cli-darwin-amd64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-cli-x86_64-linux": {
         "cargoLock": null,
@@ -149,11 +149,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-gj7UOshBgtKBDTZRYJNQaili859FkyU/YxgjmkPG//E=",
+            "sha256": "sha256-c3yC/AO6WoorDwEy6Smu2ppc7wzzpWO3INu0SXPniJM=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-cli-linux-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-cli-linux-amd64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "magpie-x86_64-linux": {
         "cargoLock": null,
@@ -164,11 +164,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-8ht/1oU9vDdP2Ti8lbuFkQGHvzyLfXMOjKhxLJzsYpc=",
+            "sha256": "sha256-75A+rMrzXX0kYb9ne2mQl4CbUI5+0FRX4bR8oYnd1dg=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1322/magpie-linux-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.1326/magpie-linux-amd64"
         },
-        "version": "0.1.1322"
+        "version": "0.1.1326"
     },
     "path-of-building": {
         "cargoLock": null,
@@ -224,11 +224,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6rjeus3kJh09YAclQWi/qW9AnBrtNbMjG1buVLK7aFw=",
+            "sha256": "sha256-N8QXrlYzohttm34xPfCVYNWL6DElmiuXhLcyrod4Y0I=",
             "type": "url",
-            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261015/proton-wineland-11.0-20261015-x86_64.tar.xz"
+            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261022/proton-wineland-11.0-20261022-x86_64.tar.xz"
         },
-        "version": "wineland-11.0-20261015"
+        "version": "wineland-11.0-20261022"
     },
     "proton-wineland-x86_64-v3": {
         "cargoLock": null,
@@ -239,11 +239,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Pr+EJYsY0G0n0VJ/ISR0Vad5ar/NRqy6D4yLcmhIgx0=",
+            "sha256": "sha256-aXvFiekYQKXAc4APACY7XA1vup+aGB1Gj73nb+1JbzA=",
             "type": "url",
-            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261015/proton-wineland-11.0-20261015-x86_64_v3.tar.xz"
+            "url": "https://github.com/nanomatters/proton-cachyos/releases/download/wineland-11.0-20261022/proton-wineland-11.0-20261022-x86_64_v3.tar.xz"
         },
-        "version": "wineland-11.0-20261015"
+        "version": "wineland-11.0-20261022"
     },
     "scanocr-client": {
         "cargoLock": null,
