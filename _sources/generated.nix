@@ -33,6 +33,14 @@
       sha256 = "sha256-DIksV61mC0E2ZPztWK+WnMqR9KXwLMWQpc7hajaymyE=";
     };
   };
+  cloudflare-cf = {
+    pname = "cloudflare-cf";
+    version = "1.0.0-beta.21";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.21.tgz";
+      sha256 = "sha256-1JtNuNC/LAm4hZS9dLx5A+CPx3h2FWbZBLa/skmLAXU=";
+    };
+  };
   duckstation = {
     pname = "duckstation";
     version = "v0.1-11894";

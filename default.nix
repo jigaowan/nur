@@ -45,6 +45,7 @@ let
     scanocr-server = callPackage ./pkgs/scanocr-server { };
     simslim = callPackage ./pkgs/simslim { };
     magpie-cli = callPackage ./pkgs/magpie-cli { };
+    cloudflare-cf = callPackage ./pkgs/cloudflare-cf { };
     magpie = callPackage ./pkgs/magpie { };
     caddy-with-dns = callPackage ./pkgs/caddy-with-dns { };
   };

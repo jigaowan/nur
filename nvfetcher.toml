@@ -2,6 +2,11 @@
 src.github = "anytls/anytls-go"
 fetch.github = "anytls/anytls-go"
 
+[cloudflare-cf]
+src.webpage = "https://registry.npmjs.org/cf/latest"
+src.regex = '"version":"([^"]+)"'
+fetch.url = "https://registry.npmjs.org/cf/-/cf-$ver.tgz"
+
 [awakened-poe-trade]
 src.github = "SnosMe/awakened-poe-trade"
 src.prefix = "v"

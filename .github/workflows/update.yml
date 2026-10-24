@@ -24,5 +24,8 @@ jobs:
       - name: Prefetch latest commits of packages
         run: "nix run github:berberman/nvfetcher"
 
+      - name: Update Cloudflare CLI runtime dependencies
+        run: nix shell -f '<nixpkgs>' nodejs_22 python3 -c python3 pkgs/cloudflare-cf/update.py
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7

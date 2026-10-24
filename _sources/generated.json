@@ -50,6 +50,21 @@
         },
         "version": "3.29.108"
     },
+    "cloudflare-cf": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cloudflare-cf",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-1JtNuNC/LAm4hZS9dLx5A+CPx3h2FWbZBLa/skmLAXU=",
+            "type": "url",
+            "url": "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.21.tgz"
+        },
+        "version": "1.0.0-beta.21"
+    },
     "duckstation": {
         "cargoLock": null,
         "date": null,
