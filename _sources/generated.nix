@@ -35,10 +35,10 @@
   };
   cloudflare-cf = {
     pname = "cloudflare-cf";
-    version = "1.0.0-beta.22";
+    version = "1.0.0-beta.23";
     src = fetchurl {
-      url = "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.22.tgz";
-      sha256 = "sha256-aOdTbzpNh2KAlu9pQ/3U6TSXizQ5rZRFmnQ3MgY9Rrk=";
+      url = "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.23.tgz";
+      sha256 = "sha256-117xJUIUjwYdo3LqIWDoQRENqKR39/rSIgjOSPG4wSI=";
     };
   };
   duckstation = {
@@ -51,58 +51,58 @@
   };
   magpie = {
     pname = "magpie";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-darwin-arm64.dmg";
-      sha256 = "sha256-HOUiAVDXi7eSr8gT54A1DFcCQD0sWpJljvjuD5glRx4=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-darwin-arm64.dmg";
+      sha256 = "sha256-2mkEy+axqUT6poCYRM7H+hcBJj9TPWbFFUCHHnsZlj4=";
     };
   };
   magpie-aarch64-linux = {
     pname = "magpie-aarch64-linux";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-linux-arm64";
-      sha256 = "sha256-RLHYf7tampOrhlH574ssAvd2f+SCU0VChq9D1/0dDHU=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-linux-arm64";
+      sha256 = "sha256-v6JgahB2SZ/sFzCFI8oxjUsPKSTfHbhoQWgfJrJLQg4=";
     };
   };
   magpie-cli-aarch64-darwin = {
     pname = "magpie-cli-aarch64-darwin";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-cli-darwin-arm64";
-      sha256 = "sha256-/SPJzoWRNyHFQeZagFdb/hiCmTy++MHX2aQwDTuHXHY=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-cli-darwin-arm64";
+      sha256 = "sha256-9v0pokVYis+Jwp5t5i6zWJPJz68z/5GtZAoL+7zwK8c=";
     };
   };
   magpie-cli-aarch64-linux = {
     pname = "magpie-cli-aarch64-linux";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-cli-linux-arm64";
-      sha256 = "sha256-PvQ9NuWR4FsGDFHu0drARtjob3Yk+W7VMcuEgbxgKeA=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-cli-linux-arm64";
+      sha256 = "sha256-rBiRl/yjpkXyO13eoMhOy0/pzqUfNNbLwrRkFpjuJ/M=";
     };
   };
   magpie-cli-x86_64-darwin = {
     pname = "magpie-cli-x86_64-darwin";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-cli-darwin-amd64";
-      sha256 = "sha256-iDSNlx/QXWenbs/fSb2RI+qXvxHtaMSBDlWkS0hj/uQ=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-cli-darwin-amd64";
+      sha256 = "sha256-LF4PG2ler6Hvp/V5hQqZd4QXV/GAQsKrwHpjUZEmhmw=";
     };
   };
   magpie-cli-x86_64-linux = {
     pname = "magpie-cli-x86_64-linux";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-cli-linux-amd64";
-      sha256 = "sha256-2wCiN/wPgxD4nNdNbvHJl7w33yQL7qunx73FT2HyL7o=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-cli-linux-amd64";
+      sha256 = "sha256-3uG2Fqdi2MFHWyYPDi2dsXecZj6b6waCI9XpKNll8i0=";
     };
   };
   magpie-x86_64-linux = {
     pname = "magpie-x86_64-linux";
-    version = "0.1.1610";
+    version = "0.1.1646";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1610/magpie-linux-amd64";
-      sha256 = "sha256-ZfwyRnfIkExif/9AZ9JVa2GO1v7KjjzLdskiCarlX5M=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.1646/magpie-linux-amd64";
+      sha256 = "sha256-S7zhe1OZKW6XjTpcHuPmhyQiXtgxQsKukLhIiDQkODQ=";
     };
   };
   path-of-building = {
@@ -166,13 +166,13 @@
   };
   simslim = {
     pname = "simslim";
-    version = "v0.12.2";
+    version = "v0.13.0";
     src = fetchFromGitHub {
       owner = "MobAI-App";
       repo = "simslim";
-      rev = "v0.12.2";
+      rev = "v0.13.0";
       fetchSubmodules = false;
-      sha256 = "sha256-hGQzc3d3dO/p5Sr5vVhZbKDPin1GPOUrk1gv92Msi4k=";
+      sha256 = "sha256-ILfeDv368o1swy7B4Hip7SnHnQveqKhbdu/WDrxBZ9g=";
     };
   };
 }
