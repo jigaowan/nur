@@ -21,6 +21,7 @@
         default = ./darwin;
         caddy = ./darwin/caddy;
         cloudflare-dynamic-dns = ./darwin/cloudflare-dynamic-dns;
+        lego-acme = ./darwin/lego-acme;
       };
       overlays = { default = import ./overlay.nix; };
     };

@@ -11,6 +11,7 @@ in
   imports = [
     ./caddy
     ./cloudflare-dynamic-dns
+    ./lego-acme
     ./mcp-nixos
     ./syncthing
     ./scanocr-server
