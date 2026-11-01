@@ -50,6 +50,7 @@ in
         RunAtLoad = true;
         StartInterval = cfg.interval;
         ProcessType = "Background";
+        EnvironmentVariables.HOME = "/var/empty";
         StandardErrorPath = "/var/log/cloudflare-dynamic-dns.log";
         StandardOutPath = "/var/log/cloudflare-dynamic-dns.log";
       };
