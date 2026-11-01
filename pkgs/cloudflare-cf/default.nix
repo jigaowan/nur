@@ -51,6 +51,13 @@ assert packageLock.version == sources.cloudflare-cf.version;
   ];
 
   dontStrip = true;
+  # npm installs both glibc and musl sharp binaries on Linux. The musl copies
+  # require libc.musl and are unused on the glibc platforms this package
+  # supports; drop them before autoPatchelf scans the output.
+  preFixup = lib.optionalString (stdenv.hostPlatform.isLinux && !stdenv.hostPlatform.isMusl) ''
+    rm -rf "$out"/lib/node_modules/cf/node_modules/@img/sharp-linuxmusl-* \
+      "$out"/lib/node_modules/cf/node_modules/@img/sharp-libvips-linuxmusl-*
+  '';
   makeWrapperArgs = [
     "--set-default NODE_EXTRA_CA_CERTS ${cacert}/etc/ssl/certs/ca-bundle.crt"
   ];
