@@ -18,6 +18,7 @@ in
     ./misskey-hub
     ./mcp-nixos
     ./scanocr-client
+    ./magpie
   ];
   nixpkgs.overlays = [
     (final: prev: packages)

@@ -48,18 +48,15 @@ systemd unit, and nix-darwin 26.05 revision
 | `security.acme`, `useACMEHost` | Not exported: nix-darwin has no equivalent ACME service/dependency module. Use Caddy's own ACME/DNS plugins, or externally managed cert/key files with `tls` in `extraConfig`. |
 | `openFirewall`, Linux QUIC buffer sysctls | Not exported or silently translated. Configure macOS firewall/routing and buffer tuning separately. |
 
-These differences do not prevent the reverse proxy, DNS-01 certificate renewal
-and IPv6 interface-based DDNS configuration used by this deployment. Those
-features run inside Caddy and its plugins, not inside systemd. This module does
-not claim Linux-equivalent confinement or identical restart policy.
+These differences do not prevent reverse proxying or DNS-01 certificate renewal.
+This module does not claim Linux-equivalent confinement or identical restart policy.
 
 ## Cloudflare DNS and IPv6 DDNS
 
-Supply a Caddy package built with both `github.com/caddy-dns/cloudflare` and
-`github.com/mholt/caddy-dynamicdns`, for example using `pkgs.caddy.withPlugins`
-with pinned plugin versions and its verified source hash. Select that derivation
-through `services.caddy.package`; the module does not select or upgrade plugins
-implicitly.
+Supply a Caddy package built with `github.com/caddy-dns/cloudflare`, such as
+`pkgs.caddy-with-dns` from this repository, for DNS-01. IPv6 DDNS can run
+separately using the [Cloudflare DDNS module](../cloudflare-dynamic-dns/README.md). Select the Caddy
+package through `services.caddy.package`; this module does not select plugins.
 
 ```nix
 { caddyWithDNS, ... }:
@@ -70,16 +67,6 @@ implicitly.
     environmentFile = "/run/agenix/caddy.env";
     globalConfig = ''
       acme_dns cloudflare {$CF_ACME_TOKEN}
-      dynamic_dns {
-        provider cloudflare {
-          api_token {$CF_DDNS_TOKEN}
-        }
-        domains {
-          example.com server
-        }
-        versions ipv6
-        ip_source interface en0
-      }
     '';
     virtualHosts."nas.example.com".extraConfig = ''
       reverse_proxy nas.internal:5000
@@ -89,7 +76,7 @@ implicitly.
 ```
 
 The example expects `caddyWithDNS` to be supplied as a module argument. The
-runtime environment file contains `CF_ACME_TOKEN=...` and `CF_DDNS_TOKEN=...`.
+runtime environment file contains `CF_ACME_TOKEN=...`.
 Make it readable by `_caddy`, for example with agenix ownership `_caddy:_caddy`
 and mode 0400. Provision secrets before Caddy activation; launchd has no agenix
 dependency graph. Use quoted path strings, not Nix file literals or `readFile`,

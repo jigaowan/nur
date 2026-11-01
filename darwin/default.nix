@@ -10,9 +10,11 @@ in
 {
   imports = [
     ./caddy
+    ./cloudflare-dynamic-dns
     ./mcp-nixos
     ./syncthing
     ./scanocr-server
+    ./magpie
   ];
   nixpkgs.overlays = [
     (final: prev: packages)

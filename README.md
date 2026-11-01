@@ -8,6 +8,8 @@
 
 Darwin service modules include [Caddy](darwin/caddy/README.md), available through
 `darwinModules.caddy` or the `darwinModules.default` aggregate.
+The [Cloudflare DDNS module](darwin/cloudflare-dynamic-dns/README.md) provides Cloudflare IPv6
+dynamic DNS independently of Caddy.
 
 `cloudflare-cf` packages Cloudflare's agent-oriented CLI and provides both `cf`
 and `cloudflare`. It supports x86_64 and aarch64 on Linux and Darwin, using

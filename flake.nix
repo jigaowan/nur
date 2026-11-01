@@ -20,6 +20,7 @@
       darwinModules = {
         default = ./darwin;
         caddy = ./darwin/caddy;
+        cloudflare-dynamic-dns = ./darwin/cloudflare-dynamic-dns;
       };
       overlays = { default = import ./overlay.nix; };
     };
