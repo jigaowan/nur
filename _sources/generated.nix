@@ -35,10 +35,10 @@
   };
   cloudflare-cf = {
     pname = "cloudflare-cf";
-    version = "1.0.0-beta.28";
+    version = "1.0.0-beta.29";
     src = fetchurl {
-      url = "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.28.tgz";
-      sha256 = "sha256-GVAu+BzoufP+6e/CsIfoqD/4ZN7sBV7ZurQ5oQ8l+Ss=";
+      url = "https://registry.npmjs.org/cf/-/cf-1.0.0-beta.29.tgz";
+      sha256 = "sha256-kU8D738RYGExOtD2pcghlrzOPTETsIj5mJEz+o3JsKI=";
     };
   };
   duckstation = {
@@ -51,58 +51,58 @@
   };
   magpie = {
     pname = "magpie";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-darwin-arm64.dmg";
-      sha256 = "sha256-vHyQp3uN88YXg/oQt9okOzucOHQ5jqsCn7qKKvV02ZQ=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-darwin-arm64.dmg";
+      sha256 = "sha256-uE0wBQYKMmvdu4H9bapGA7HXIi9MK21AlMXEwpmfBSE=";
     };
   };
   magpie-aarch64-linux = {
     pname = "magpie-aarch64-linux";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-linux-arm64";
-      sha256 = "sha256-DKvNUuyGGKZ1iBtFTAL8lUp8EZVnXLeyFsUCOrRHA+k=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-linux-arm64";
+      sha256 = "sha256-YLc/d3+ok0C7c5qXV9+nEq4dYKtUnutylwraTPMf8+4=";
     };
   };
   magpie-cli-aarch64-darwin = {
     pname = "magpie-cli-aarch64-darwin";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-cli-darwin-arm64";
-      sha256 = "sha256-qdscC6JsnvwHJA40wasoVLOL1Df6zQJluCoKaEzMFo4=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-cli-darwin-arm64";
+      sha256 = "sha256-L19b+dgdTW2TQL1O/zL0DRm70JgtbA67K8TEXdOCJq0=";
     };
   };
   magpie-cli-aarch64-linux = {
     pname = "magpie-cli-aarch64-linux";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-cli-linux-arm64";
-      sha256 = "sha256-mUzOdSvu5H2Wyd58WrZlSiN07pL5y4qXqqiXLsS+QTc=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-cli-linux-arm64";
+      sha256 = "sha256-PsBtnW/quQVPMErUHKrFan0Le2zsFL75AGNfWayZeKQ=";
     };
   };
   magpie-cli-x86_64-darwin = {
     pname = "magpie-cli-x86_64-darwin";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-cli-darwin-amd64";
-      sha256 = "sha256-tOuhsLhPVhzRXyZjS84R7tu/FmZZXubhNvK+YXCXVVs=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-cli-darwin-amd64";
+      sha256 = "sha256-m/LsVgnsWA8GDrHtYLxVih8cRk2Sm/6u/yJ/25SCskQ=";
     };
   };
   magpie-cli-x86_64-linux = {
     pname = "magpie-cli-x86_64-linux";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-cli-linux-amd64";
-      sha256 = "sha256-Exg+kq9MxBtqz/MPjQybZXLhW40m2hOSCngCX+dXilg=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-cli-linux-amd64";
+      sha256 = "sha256-eVhR/8Knpry2GTvVaoEzkOJe0SZLgqKDry3JRPREuBM=";
     };
   };
   magpie-x86_64-linux = {
     pname = "magpie-x86_64-linux";
-    version = "0.1.3598";
+    version = "0.1.3645";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3598/magpie-linux-amd64";
-      sha256 = "sha256-balqNDvEXpxxDKDC8Ti0g4n+Gw8fziT1sR7xGzdh3xo=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.3645/magpie-linux-amd64";
+      sha256 = "sha256-o4aYySM1qB0po/j2me00AwyGIEoVA0I0wKtLmrBtSqk=";
     };
   };
   path-of-building = {
