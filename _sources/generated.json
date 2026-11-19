@@ -44,11 +44,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-EdlxjDxT9YbyQB3Z4wjdFHcCK8823LJWMaOYGwSPP+I=",
+            "sha256": "sha256-h/hTWuuvFvHX+lvFSWc8rAd5Eeylp3eZBDzWkWu7zGM=",
             "type": "url",
-            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.30.101/Awakened-PoE-Trade-3.30.101.AppImage"
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.30.102/Awakened-PoE-Trade-3.30.102.AppImage"
         },
-        "version": "3.30.101"
+        "version": "3.30.102"
     },
     "cloudflare-cf": {
         "cargoLock": null,
@@ -59,11 +59,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+tHC8tXkeTPOl09Iz8Vr/G8039oDd6TWmFxw4pdUxbw=",
+            "sha256": "sha256-c4OCQdD2M84FVifHJXG5P6ENjl/DBGtyxw8W3nknzfk=",
             "type": "url",
-            "url": "https://registry.npmjs.org/cf/-/cf-1.0.0-rc.1.tgz"
+            "url": "https://registry.npmjs.org/cf/-/cf-1.0.0-rc.2.tgz"
         },
-        "version": "1.0.0-rc.1"
+        "version": "1.0.0-rc.2"
     },
     "duckstation": {
         "cargoLock": null,
@@ -74,11 +74,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-TVw9z9mTfcnne4/NX4ebjsDGlVHV7RNGJZIHNghUL8o=",
+            "sha256": "sha256-ahvh26J61U9SeMQmjcpT7gzJnJQ5S+K6/JkTjFQmMxQ=",
             "type": "url",
-            "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-12442/DuckStation-x64.AppImage"
+            "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-12640/DuckStation-x64.AppImage"
         },
-        "version": "v0.1-12442"
+        "version": "v0.1-12640"
     },
     "magpie": {
         "cargoLock": null,
@@ -89,11 +89,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-I78zYFzWHfsNS8J7yUiEv3yAg9DclNx+7WqC8OrYMWA=",
+            "sha256": "sha256-fD/UFgj9NFnSyqdpbEP6QrkiSsrBH5XWoFF6QoADyC0=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-darwin-arm64.dmg"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-darwin-arm64.dmg"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-aarch64-linux": {
         "cargoLock": null,
@@ -104,11 +104,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-IOG0PL1OaTYI/d2cGWLOnoTIBa2yvbi8nyweIoNhNgQ=",
+            "sha256": "sha256-X8tr2gaDzlIlPsy3cIshLD8j6NsFcxQOnWFl6Xq76eU=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-linux-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-linux-arm64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-cli-aarch64-darwin": {
         "cargoLock": null,
@@ -119,11 +119,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+/cBEVIEBPnTTMPjViFxhWEa+RUS6bkEb1vSScKaTpQ=",
+            "sha256": "sha256-/Szq6kpOWhbETcRO8XjgSsRJDuMGPcrUyw8oRfMi1Ec=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-cli-darwin-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-cli-darwin-arm64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-cli-aarch64-linux": {
         "cargoLock": null,
@@ -134,11 +134,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-2Kfzlpe9wCTQkWAUQusTlSAufOaSeOZZ6PyHCtONItk=",
+            "sha256": "sha256-YCZyq8QjFrRApbRoDIE9rVjso91iGT7eiBY+CxbBWfk=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-cli-linux-arm64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-cli-linux-arm64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-cli-x86_64-darwin": {
         "cargoLock": null,
@@ -149,11 +149,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-T0LSZ0yYiLnikbO89NaT5L7T/ESSueDWv9QszspYI0A=",
+            "sha256": "sha256-gF0J2ZD2SflNMk5hqtwTBlkP+RFOMiuNwcbdWQ0VBdE=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-cli-darwin-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-cli-darwin-amd64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-cli-x86_64-linux": {
         "cargoLock": null,
@@ -164,11 +164,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-7k2F0QlBL0TG4uhc7hYNvoraXTeaH9lQNxZUHB8xNaY=",
+            "sha256": "sha256-Lpf/7XrOAzml2pv6ty/sTVDEcMtxtQZFHQk1gXGpp9Q=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-cli-linux-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-cli-linux-amd64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "magpie-x86_64-linux": {
         "cargoLock": null,
@@ -179,11 +179,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-4ruCis8XkLHNbqVdhAle3cBautmKoBzXWzTYCqHvJfM=",
+            "sha256": "sha256-Zk4TPzdlwwmVMQ5d/gMe823URecwsXOeFt8YJqaVeeA=",
             "type": "url",
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4504/magpie-linux-amd64"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.4539/magpie-linux-amd64"
         },
-        "version": "0.1.4504"
+        "version": "0.1.4539"
     },
     "path-of-building": {
         "cargoLock": null,
