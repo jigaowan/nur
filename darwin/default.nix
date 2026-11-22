@@ -9,6 +9,7 @@ let
 in
 {
   imports = [
+    ./agy-remote-control
     ./caddy
     ./cloudflare-dynamic-dns
     ./lego-acme

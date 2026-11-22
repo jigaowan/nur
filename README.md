@@ -11,6 +11,9 @@ Darwin service modules include [Caddy](darwin/caddy/README.md), available throug
 The [Cloudflare DDNS module](darwin/cloudflare-dynamic-dns/README.md) provides Cloudflare IPv6
 dynamic DNS independently of Caddy.
 
+The [Antigravity CLI Remote Control module](modules/agy-remote-control/README.md)
+runs `agy` as a system service on NixOS or nix-darwin.
+
 `cloudflare-cf` packages Cloudflare's agent-oriented CLI and provides both `cf`
 and `cloudflare`. It supports x86_64 and aarch64 on Linux and Darwin, using
 Node.js 22 from the consuming nixpkgs (22.23.0 or newer is required).

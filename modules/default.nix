@@ -10,6 +10,7 @@ in
 {
   disabledModules = [ "services/networking/sing-box.nix" ];
   imports = [
+    ./agy-remote-control
     ./hysteria
     ./anytls-go
     ./snell-server
