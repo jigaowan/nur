@@ -14,6 +14,38 @@
       sha256 = "sha256-aAHFELdlL7cccpzAW9ROHF1hZDAnQGTLLtDonS0CT2Q=";
     };
   };
+  antigravity-cli-aarch64-darwin = {
+    pname = "antigravity-cli-aarch64-darwin";
+    version = "1.5.14";
+    src = fetchurl {
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.14/agy_cli_mac_arm64.tar.gz";
+      sha256 = "sha256-sBvdRZHhPd/LDgSb6nSun4PoCCmtz2SqpY9b+xpCWlQ=";
+    };
+  };
+  antigravity-cli-aarch64-linux = {
+    pname = "antigravity-cli-aarch64-linux";
+    version = "1.5.14";
+    src = fetchurl {
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.14/agy_cli_linux_arm64.tar.gz";
+      sha256 = "sha256-5faaMSP6xml0swPZogHzgaD7MrPvhp2ROdqF1cr2eio=";
+    };
+  };
+  antigravity-cli-x86_64-darwin = {
+    pname = "antigravity-cli-x86_64-darwin";
+    version = "1.5.14";
+    src = fetchurl {
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.14/agy_cli_mac_x64.tar.gz";
+      sha256 = "sha256-wUIUEUHLqpP05GkEt2NB40nz8reERfh385Ro3+YN2h4=";
+    };
+  };
+  antigravity-cli-x86_64-linux = {
+    pname = "antigravity-cli-x86_64-linux";
+    version = "1.5.14";
+    src = fetchurl {
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.14/agy_cli_linux_x64.tar.gz";
+      sha256 = "sha256-1YOGMi0gc+lrM/fMMrTpri22Io9YRANpcllnst5Ix7U=";
+    };
+  };
   anytls-go = {
     pname = "anytls-go";
     version = "v0.0.13";

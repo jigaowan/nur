@@ -7,13 +7,17 @@ from the NUR flake. Both platform defaults include the module.
 services.agy-remote-control = {
   enable = true;
   instanceName = "dev-workstation";
-  # Optional when pkgs.antigravity-cli is available and allowed by Nixpkgs.
-  package = inputs.llm-agents.packages.${pkgs.stdenv.hostPlatform.system}.antigravity-cli;
 
   # Existing non-root account on either platform.
   user = "alice";
 };
 ```
+
+The module defaults to `pkgs.antigravity-cli`. The default NUR modules provide
+this package for Intel and Apple Silicon Macs and for x86_64 and aarch64 Linux.
+When importing the standalone module, add the NUR `overlays.default` to get
+the same package. Set `package` to use a different build of `agy`. Nixpkgs
+must allow the unfree `antigravity-cli` license.
 
 The system service starts at boot as `user` on both platforms. It uses the
 account's home directory for credentials and as the working directory. On macOS

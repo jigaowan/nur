@@ -4,7 +4,6 @@
     enable = lib.mkEnableOption "the Antigravity CLI Remote Control daemon";
 
     package = lib.mkPackageOption pkgs "antigravity-cli" {
-      default = if pkgs ? antigravity-cli then "antigravity-cli" else null;
       extraDescription = "The package must provide {command}`agy`.";
     };
 
