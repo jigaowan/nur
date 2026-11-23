@@ -14,23 +14,7 @@ let
   );
 in
 {
-  imports = [
-    ./options.nix
-    (lib.mkRemovedOptionModule
-      [
-        "services"
-        "agy-remote-control"
-        "linger"
-      ]
-      "The system service starts at boot. Remove services.agy-remote-control.linger from your configuration."
-    )
-  ];
-
-  options.services.agy-remote-control.user = lib.mkOption {
-    type = lib.types.nonEmptyStr;
-    example = "alice";
-    description = "Existing non-root NixOS account whose home contains the agy daemon credentials.";
-  };
+  imports = [ ./options.nix ];
 
   config = lib.mkIf cfg.enable {
     assertions = [

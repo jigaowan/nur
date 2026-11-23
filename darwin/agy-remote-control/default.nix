@@ -10,12 +10,6 @@ in
 {
   imports = [ ../../modules/agy-remote-control/options.nix ];
 
-  options.services.agy-remote-control.user = lib.mkOption {
-    type = lib.types.nonEmptyStr;
-    example = "alice";
-    description = "Existing non-root macOS account whose home contains the agy daemon credentials.";
-  };
-
   config = lib.mkIf cfg.enable {
     assertions = [
       {
