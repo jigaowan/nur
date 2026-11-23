@@ -73,6 +73,38 @@
       sha256 = "sha256-c4OCQdD2M84FVifHJXG5P6ENjl/DBGtyxw8W3nknzfk=";
     };
   };
+  codex-bin-aarch64-darwin = {
+    pname = "codex-bin-aarch64-darwin";
+    version = "0.171.0";
+    src = fetchurl {
+      url = "https://releases.openai.com/codex/releases/0.171.0/codex-package-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-WMiAMuxEbnKSLZEdjwN3MQLaIMFqYFnPIfZ0S85X8hA=";
+    };
+  };
+  codex-bin-aarch64-linux = {
+    pname = "codex-bin-aarch64-linux";
+    version = "0.171.0";
+    src = fetchurl {
+      url = "https://releases.openai.com/codex/releases/0.171.0/codex-package-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-2MQ77mzxGwHrGLlfTXlhCSvEAigYCAiFnnDau3eEwck=";
+    };
+  };
+  codex-bin-x86_64-darwin = {
+    pname = "codex-bin-x86_64-darwin";
+    version = "0.171.0";
+    src = fetchurl {
+      url = "https://releases.openai.com/codex/releases/0.171.0/codex-package-x86_64-apple-darwin.tar.gz";
+      sha256 = "sha256-3RMOoyF7Tm/kRUyZlJ4LKOLoqa2NqMOnXwxyZfq3FTs=";
+    };
+  };
+  codex-bin-x86_64-linux = {
+    pname = "codex-bin-x86_64-linux";
+    version = "0.171.0";
+    src = fetchurl {
+      url = "https://releases.openai.com/codex/releases/0.171.0/codex-package-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-g5HWd1dJa/0UiT7KbL8MlplL8mJ1Zv8fAY9wYAye9rM=";
+    };
+  };
   duckstation = {
     pname = "duckstation";
     version = "v0.1-12640";

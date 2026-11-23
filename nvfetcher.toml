@@ -23,6 +23,26 @@ src.webpage = "https://registry.npmjs.org/cf/latest"
 src.regex = '"version":"([^"]+)"'
 fetch.url = "https://registry.npmjs.org/cf/-/cf-$ver.tgz"
 
+[codex-bin-aarch64-darwin]
+src.webpage = "https://releases.openai.com/codex/channels/latest"
+src.regex = '"tag_name"\s*:\s*"rust-v([0-9]+\.[0-9]+\.[0-9]+)"'
+fetch.url = "https://releases.openai.com/codex/releases/$ver/codex-package-aarch64-apple-darwin.tar.gz"
+
+[codex-bin-aarch64-linux]
+src.webpage = "https://releases.openai.com/codex/channels/latest"
+src.regex = '"tag_name"\s*:\s*"rust-v([0-9]+\.[0-9]+\.[0-9]+)"'
+fetch.url = "https://releases.openai.com/codex/releases/$ver/codex-package-aarch64-unknown-linux-musl.tar.gz"
+
+[codex-bin-x86_64-darwin]
+src.webpage = "https://releases.openai.com/codex/channels/latest"
+src.regex = '"tag_name"\s*:\s*"rust-v([0-9]+\.[0-9]+\.[0-9]+)"'
+fetch.url = "https://releases.openai.com/codex/releases/$ver/codex-package-x86_64-apple-darwin.tar.gz"
+
+[codex-bin-x86_64-linux]
+src.webpage = "https://releases.openai.com/codex/channels/latest"
+src.regex = '"tag_name"\s*:\s*"rust-v([0-9]+\.[0-9]+\.[0-9]+)"'
+fetch.url = "https://releases.openai.com/codex/releases/$ver/codex-package-x86_64-unknown-linux-musl.tar.gz"
+
 [awakened-poe-trade]
 src.github = "SnosMe/awakened-poe-trade"
 src.prefix = "v"

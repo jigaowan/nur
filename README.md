@@ -14,6 +14,10 @@ dynamic DNS independently of Caddy.
 The [Antigravity CLI Remote Control module](modules/agy-remote-control/README.md)
 runs `agy` as a system service on NixOS or nix-darwin.
 
+`codex-bin` provides the official Codex CLI package, including its bundled
+helpers, for Intel and Apple Silicon Macs and x86_64 and aarch64 Linux. Its
+version follows OpenAI's stable release channel.
+
 `cloudflare-cf` packages Cloudflare's agent-oriented CLI and provides both `cf`
 and `cloudflare`. It supports x86_64 and aarch64 on Linux and Darwin, using
 Node.js 22 from the consuming nixpkgs (22.23.0 or newer is required).

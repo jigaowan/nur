@@ -45,6 +45,7 @@ let
     scanocr-server = callPackage ./pkgs/scanocr-server { };
     simslim = callPackage ./pkgs/simslim { };
     antigravity-cli = callPackage ./pkgs/antigravity-cli { };
+    codex-bin = callPackage ./pkgs/codex-bin { };
     magpie-cli = callPackage ./pkgs/magpie-cli { };
     cloudflare-cf = callPackage ./pkgs/cloudflare-cf { };
     magpie = callPackage ./pkgs/magpie { };
