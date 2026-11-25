@@ -16,34 +16,34 @@
   };
   antigravity-cli-aarch64-darwin = {
     pname = "antigravity-cli-aarch64-darwin";
-    version = "1.5.16";
+    version = "1.5.17";
     src = fetchurl {
-      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.16/agy_cli_mac_arm64.tar.gz";
-      sha256 = "sha256-ukcgL3Et5MSnj9eH2BuiBtc+Ecl1cvxpQg8pp378jZU=";
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.17/agy_cli_mac_arm64.tar.gz";
+      sha256 = "sha256-lNTEdVye264/66j308eydk5rI5Mm77BHeyhAdjXJ52Q=";
     };
   };
   antigravity-cli-aarch64-linux = {
     pname = "antigravity-cli-aarch64-linux";
-    version = "1.5.16";
+    version = "1.5.17";
     src = fetchurl {
-      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.16/agy_cli_linux_arm64.tar.gz";
-      sha256 = "sha256-fd7seQCE5VCvGK2wSltsX98ts+ECaFT0mQGgTLQmXH4=";
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.17/agy_cli_linux_arm64.tar.gz";
+      sha256 = "sha256-1tK4hJPm4ChU2keLIVzR3Zj9jPmFtr43gp2srepP/Ac=";
     };
   };
   antigravity-cli-x86_64-darwin = {
     pname = "antigravity-cli-x86_64-darwin";
-    version = "1.5.16";
+    version = "1.5.17";
     src = fetchurl {
-      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.16/agy_cli_mac_x64.tar.gz";
-      sha256 = "sha256-FM12ox5CrUYdb4rfdjEwbKw3VT9UeroKDxEbCCTSHAw=";
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.17/agy_cli_mac_x64.tar.gz";
+      sha256 = "sha256-WMyabBElbeNIGT20ko/nIS0Uqqlp/xe4ufysIpZXmvw=";
     };
   };
   antigravity-cli-x86_64-linux = {
     pname = "antigravity-cli-x86_64-linux";
-    version = "1.5.16";
+    version = "1.5.17";
     src = fetchurl {
-      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.16/agy_cli_linux_x64.tar.gz";
-      sha256 = "sha256-m9qyNNBrrRphviMhByZS6wa+eLr/Gsv65HMx2loJCrw=";
+      url = "https://github.com/google-antigravity/antigravity-cli/releases/download/1.5.17/agy_cli_linux_x64.tar.gz";
+      sha256 = "sha256-YwS09ZKul+WSMc+xs2XuKcFVdQyaiB8MyO/l9SgQd88=";
     };
   };
   anytls-go = {
@@ -115,66 +115,66 @@
   };
   magpie = {
     pname = "magpie";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-darwin-arm64.dmg";
-      sha256 = "sha256-F8tVsLbwUrZ0JP7udkezcwHgN9+9+iw3l4LuV+AVEak=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-darwin-arm64.dmg";
+      sha256 = "sha256-MdquxzVeFR/lrgmb3Xd46g4gQZWzGBXK9H+jsEHHrVc=";
     };
   };
   magpie-aarch64-linux = {
     pname = "magpie-aarch64-linux";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-linux-arm64";
-      sha256 = "sha256-AbfZJPOj5OUYHrnqETa+EA+iECtXQ9vRZmNaYw52b3c=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-linux-arm64";
+      sha256 = "sha256-lo5d8h5BwUdtr2FrYg9rQRmbHHKMk0KTCxGZmNeFE4o=";
     };
   };
   magpie-cli-aarch64-darwin = {
     pname = "magpie-cli-aarch64-darwin";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-cli-darwin-arm64";
-      sha256 = "sha256-CsJjNyKB8URpqREzzXPqp5Ih1L7f3+z/DI2kqnIm4VA=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-cli-darwin-arm64";
+      sha256 = "sha256-Ycg0YllF9ZpcjEGZJePg1Y9FJzKQZKozW+iYTM7Mplc=";
     };
   };
   magpie-cli-aarch64-linux = {
     pname = "magpie-cli-aarch64-linux";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-cli-linux-arm64";
-      sha256 = "sha256-jvLjOxUq4CftPhooLwrv0TSN/Ndmtm1+VcrfXbAoTkc=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-cli-linux-arm64";
+      sha256 = "sha256-eLcYty8Dd9r1aDj9ygcDHrGrwPxN81KeGZEzQ6PFfSs=";
     };
   };
   magpie-cli-x86_64-darwin = {
     pname = "magpie-cli-x86_64-darwin";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-cli-darwin-amd64";
-      sha256 = "sha256-dupBzRia+oElk8LQprpVLPZznHc8haCjbihRwrVC33E=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-cli-darwin-amd64";
+      sha256 = "sha256-7WxGR9u8/emgW9DkfOoQCieIQCPVvun+OT+OJcURHGk=";
     };
   };
   magpie-cli-x86_64-linux = {
     pname = "magpie-cli-x86_64-linux";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-cli-linux-amd64";
-      sha256 = "sha256-ZxYyBXz/mOv2RBK75Mc28wkK5DvW1mLngIhA09t1jk0=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-cli-linux-amd64";
+      sha256 = "sha256-xV7yw9qiWRnh5FUIr6tL6N5W92A4R7cFp8TINXptS+Q=";
     };
   };
   magpie-x86_64-linux = {
     pname = "magpie-x86_64-linux";
-    version = "0.1.4777";
+    version = "0.1.4799";
     src = fetchurl {
-      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4777/magpie-linux-amd64";
-      sha256 = "sha256-S1CLbfnEd9wrhOdYrwp6HZ0bpMVQmMNJicHhIuCOzpw=";
+      url = "https://github.com/yetone/magpie-releases/releases/download/v0.1.4799/magpie-linux-amd64";
+      sha256 = "sha256-R+f5GutI1yBGj6KCYT/OFgnw+nQC90JrV5y9tGLnenI=";
     };
   };
   path-of-building = {
     pname = "path-of-building";
-    version = "v2.68.1";
+    version = "v2.69.0";
     src = fetchurl {
-      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.68.1/PathOfBuildingCommunity-Portable.zip";
-      sha256 = "sha256-pQCQEbj0ejzhT/8AN2+SVVr77c20vhJbmTp0OOGt/X0=";
+      url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.69.0/PathOfBuildingCommunity-Portable.zip";
+      sha256 = "sha256-dS+sTeUO+jgVWkIqQ27JHehEJMACXH4Y51qyo25Z0hI=";
     };
   };
   proton-cachyos = {
