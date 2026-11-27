@@ -17,6 +17,7 @@ in
     ./syncthing
     ./scanocr-server
     ./magpie
+    ./pod-hub
   ];
   nixpkgs.overlays = [
     (final: prev: packages)

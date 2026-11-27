@@ -177,6 +177,17 @@
       sha256 = "sha256-dS+sTeUO+jgVWkIqQ27JHehEJMACXH4Y51qyo25Z0hI=";
     };
   };
+  pod-hub = {
+    pname = "pod-hub";
+    version = "v2.0.0";
+    src = fetchFromGitHub {
+      owner = "jigaowan";
+      repo = "pod-hub";
+      rev = "v2.0.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-PzW9lswgK+xbuufVmKsypdWXvLxUAm41PJfunQvrOPo=";
+    };
+  };
   proton-cachyos = {
     pname = "proton-cachyos";
     version = "cachyos-11.0-20261015-slr";

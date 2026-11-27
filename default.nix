@@ -50,6 +50,7 @@ let
     cloudflare-cf = callPackage ./pkgs/cloudflare-cf { };
     magpie = callPackage ./pkgs/magpie { };
     caddy-with-dns = callPackage ./pkgs/caddy-with-dns { };
+    pod-hub = callPackage ./pkgs/pod-hub { };
   };
 in
 myPkgs

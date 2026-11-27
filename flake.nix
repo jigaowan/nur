@@ -19,6 +19,7 @@
       nixosModules = {
         default = ./modules;
         agy-remote-control = ./modules/agy-remote-control;
+        pod-hub = ./modules/pod-hub;
       };
       darwinModules = {
         default = ./darwin;
@@ -26,6 +27,7 @@
         caddy = ./darwin/caddy;
         cloudflare-dynamic-dns = ./darwin/cloudflare-dynamic-dns;
         lego-acme = ./darwin/lego-acme;
+        pod-hub = ./darwin/pod-hub;
       };
       overlays = { default = import ./overlay.nix; };
     };

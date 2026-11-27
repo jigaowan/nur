@@ -20,6 +20,7 @@ in
     ./mcp-nixos
     ./scanocr-client
     ./magpie
+    ./pod-hub
   ];
   nixpkgs.overlays = [
     (final: prev: packages)

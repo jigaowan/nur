@@ -127,3 +127,8 @@ fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/m
 src.github = "yetone/magpie-releases"
 src.prefix = "v"
 fetch.url = "https://github.com/yetone/magpie-releases/releases/download/v$ver/magpie-linux-arm64"
+
+[pod-hub]
+src.github_tag = "jigaowan/pod-hub"
+src.include_regex = "^v[0-9]+([.][0-9]+)*$"
+fetch.github = "jigaowan/pod-hub"
