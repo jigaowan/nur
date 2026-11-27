@@ -179,13 +179,13 @@
   };
   pod-hub = {
     pname = "pod-hub";
-    version = "v2.0.2";
+    version = "v2.1.0";
     src = fetchFromGitHub {
       owner = "jigaowan";
       repo = "pod-hub";
-      rev = "v2.0.2";
+      rev = "v2.1.0";
       fetchSubmodules = false;
-      sha256 = "sha256-Xl3KpLtD4tS8K61j7w3ld0lWBZfra/JVDVudESn4iWk=";
+      sha256 = "sha256-w6a0CCaZp+IhFaia+WvNzEjupcuOBGARsAjnDvkSWaw=";
     };
   };
   proton-cachyos = {

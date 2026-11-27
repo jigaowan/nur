@@ -334,12 +334,12 @@
             "name": null,
             "owner": "jigaowan",
             "repo": "pod-hub",
-            "rev": "v2.0.2",
-            "sha256": "sha256-Xl3KpLtD4tS8K61j7w3ld0lWBZfra/JVDVudESn4iWk=",
+            "rev": "v2.1.0",
+            "sha256": "sha256-w6a0CCaZp+IhFaia+WvNzEjupcuOBGARsAjnDvkSWaw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v2.0.2"
+        "version": "v2.1.0"
     },
     "proton-cachyos": {
         "cargoLock": null,
