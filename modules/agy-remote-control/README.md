@@ -29,27 +29,31 @@ the home defaults to `/Users/<name>` if `users.users.<name>.home` is unset. Set
 The service runs the foreground process normally registered by
 `agy remote-control start`.
 
-Before the first successful start, sign in as the service account with `agy`
-or `agy acp --login`. Initialize the daemon credentials with the same CLI
-package and home directory that the service uses.
+Sign in as the service account with `agy` or `agy acp --login`. On macOS,
+interactive login can use the login keychain, while `remote-control serve`
+uses file-based credentials. Initialize the daemon credentials with the same
+CLI package and home directory that the service uses.
 
 ```sh
 agy remote-control start --session
 agy remote-control stop
 ```
 
-`start` prepares the credentials in the user's home, and `stop` unregisters
-the temporary upstream job. Start or restart the Nix-managed service once
-the credentials are ready. If you need to initialize them again, stop the
-Nix-managed service first and then repeat the commands above.
+`start` uses the CLI login to prepare the daemon credentials and registers a
+temporary upstream job. `stop` unregisters that job, leaving the daemon
+credentials available for the Nix-managed service.
 
-Existing daemon credentials can be reused when the service account and home
-directory are the same.
+Start the Nix-managed service once the credentials are ready. A normal
+restart reuses valid daemon credentials. If the service reports
+`not signed in`, stop it if it is running, sign in again if needed, and repeat
+the initialization above before starting the Nix-managed service.
 
 - On NixOS, check `systemctl status agy-remote-control.service` and
   `journalctl -u agy-remote-control.service`. Restart with
   `sudo systemctl restart agy-remote-control.service`.
 - On nix-darwin, check `sudo launchctl print system/org.nixos.agy-remote-control`.
+  Startup errors are sent to `/var/log/agy-remote-control.log`. Check this file
+  if the job exits with code 0 and the CLI session log is empty.
   Restart with `sudo launchctl kickstart -k system/org.nixos.agy-remote-control`.
   Both commands assume the default `launchd.labelPrefix`.
 

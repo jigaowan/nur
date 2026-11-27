@@ -38,6 +38,8 @@ in
       serviceConfig = {
         UserName = cfg.user;
         WorkingDirectory = home;
+        # agy reports missing daemon credentials here before its own log is initialized.
+        StandardErrorPath = "/var/log/agy-remote-control.log";
         RunAtLoad = true;
         KeepAlive.SuccessfulExit = false;
         ThrottleInterval = 10;
