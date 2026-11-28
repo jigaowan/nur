@@ -107,10 +107,10 @@
   };
   duckstation = {
     pname = "duckstation";
-    version = "v0.1-12640";
+    version = "20261126.0141-c1366ee";
     src = fetchurl {
-      url = "https://github.com/stenzek/duckstation/releases/download/v0.1-12640/DuckStation-x64.AppImage";
-      sha256 = "sha256-ahvh26J61U9SeMQmjcpT7gzJnJQ5S+K6/JkTjFQmMxQ=";
+      url = "https://github.com/jigaowan/binary-mirror/releases/download/duckstation%2F20261126.0141-c1366ee/DuckStation-x64.AppImage";
+      sha256 = "sha256-wTZu5ZM9gKnffsM3vwI9puuvklGLZd+KdsDcwXexeoI=";
     };
   };
   magpie = {

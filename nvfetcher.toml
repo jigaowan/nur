@@ -58,9 +58,10 @@ src.github = "PathOfBuildingCommunity/PathOfBuilding"
 fetch.url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/$ver/PathOfBuildingCommunity-Portable.zip"
 
 [duckstation]
-src.github_tag = "stenzek/duckstation"
-src.include_regex = "^v[0-9].*"
-fetch.url = "https://github.com/stenzek/duckstation/releases/download/$ver/DuckStation-x64.AppImage"
+src.github_tag = "jigaowan/binary-mirror"
+src.include_regex = "^duckstation/[0-9]{8}[.][0-9]{4}-[0-9a-f]+$"
+src.prefix = "duckstation/"
+fetch.url = "https://github.com/jigaowan/binary-mirror/releases/download/duckstation%2F$ver/DuckStation-x64.AppImage"
 
 [proton-cachyos]
 src.github = "CachyOS/proton-cachyos"
